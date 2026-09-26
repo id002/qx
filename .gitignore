@@ -8,3 +8,6 @@ _下载中/
 # Windows系统文件
 Thumbs.db
 Desktop.ini
+
+# 临时校验日志
+_source/validate-run.log

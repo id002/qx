@@ -15,10 +15,43 @@ QuantumultX/
 ├── docs/
 │   ├── 操作手册.md          从零开始的安装/导入/证书教程
 │   └── 规则清单.md          所有启用规则的详细说明
-├── filters/                分流规则本地备份目录
-├── rewrites/               重写规则本地备份目录
-├── scripts/                脚本本地备份目录
-└── _source/                墨鱼原始参考（README + 自用配置）
+├── filters/                分流规则（英文短名，手机可直接引用）
+├── rewrites/               重写规则（英文短名，手机可直接引用）
+├── scripts/                脚本（英文短名，手机可直接引用）
+├── _source/                墨鱼原始参考 + 校验脚本 validate_rules.py
+└── QX-Knowledge/           规则知识库（全量原始规则存档）
+```
+
+## 手机直接引用（GitHub raw 短路径）
+
+仓库地址：`https://github.com/id002/qx`，raw 前缀：`https://raw.githubusercontent.com/id002/qx/master/`
+
+**常用重写规则（rewrites/）**
+
+| 文件 | 说明 |
+|------|------|
+| `rewrites/startup-ads.conf` | 墨鱼去开屏 2.0（全量开屏广告） |
+| `rewrites/da-shi-xiong.conf` | 大师兄影视去广告（本地验证版） |
+| `rewrites/qi-shui-music.conf` | 汽水音乐开屏拦截（穿山甲SDK精确版） |
+| `rewrites/fake-ios.conf` | 影视App公告弹窗去除（HTTP明文） |
+| `rewrites/duolingo.conf` | 多邻国PLUS插屏/开屏拦截 |
+| `rewrites/applet.conf` | 微信小程序去广告 |
+| `rewrites/bilibili.conf` / `bilibili-lite.conf` | B站净化（完整/Lite） |
+| `rewrites/youtube.conf` | YouTube 去广告 |
+| `rewrites/weibo.conf` | 微博去广告 |
+| `rewrites/amap.conf` | 高德地图净化 |
+| `rewrites/netease.conf` | 网易云净化 |
+| `rewrites/goofish.conf` | 闲鱼净化 |
+| `rewrites/xiaohongshu.conf` | 小红书净化+去水印 |
+| `rewrites/caiyun.conf` / `tieba.conf` / `keep.conf` / `smzdm.conf` / `reddit.conf` | 其他常用净化 |
+
+**常用分流（filters/）**：`adrules.conf`（广告终结者）、`china-asn.list`（国内直连）、`apple.list`（苹果服务）、`streaming.list` / `streaming-se.list`（国际媒体/B站）、`ai.yaml`（AI分流）、`github.list`、`wechat.list`、`spotify.list`、`global-proxy.list`、`unbreak.list`（反误杀）、`google-voice.list`
+
+**常用脚本（scripts/）**：`zhihu.ads.js`、`bdpan.ads.js`（网盘净化）、`bdpan.unlock.js`（网盘倍速）、`kkmusic.vip.js`、`youtube.response.js` 等
+
+QX 里添加远程资源时填完整 raw URL 即可，例如：
+```
+https://raw.githubusercontent.com/id002/qx/master/rewrites/da-shi-xiong.conf
 ```
 
 ## 快速上手（3 步）

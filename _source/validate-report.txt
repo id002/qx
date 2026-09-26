@@ -1,0 +1,183 @@
+﻿======================================================================
+[1] rewrites/*.conf 重写规则校验
+======================================================================
+[OK ] amap.conf (规则18条/兼容filter行1条/hostname5项)
+[OK ] applet.conf (规则5条/兼容filter行0条/hostname37项)
+[OK ] bilibili-lite.conf (规则8条/兼容filter行0条/hostname1项)
+[OK ] bilibili.conf (规则27条/兼容filter行0条/hostname7项)
+[OK ] caiyun.conf (规则12条/兼容filter行0条/hostname4项)
+[OK ] china-unicom.conf (规则10条/兼容filter行1条/hostname2项)
+[OK ] da-shi-xiong.conf (规则3条/兼容filter行0条/hostname1项)
+[OK ] douban.conf (规则1条/兼容filter行0条/hostname1项)
+[OK ] duolingo.conf (规则5条/兼容filter行0条/hostname2项)
+[OK ] fake-ios.conf (规则1条/兼容filter行0条/hostname0项)
+[OK ] goofish.conf (规则14条/兼容filter行1条/hostname2项)
+[OK ] google-redirect.conf (规则1条/兼容filter行0条/hostname1项)
+[OK ] keep.conf (规则17条/兼容filter行0条/hostname4项)
+[OK ] netease-mail.conf (规则7条/兼容filter行0条/hostname3项)
+[OK ] netease.conf (规则29条/兼容filter行0条/hostname1项)
+[OK ] q-search.conf (规则83条/兼容filter行0条/hostname1项)
+[OK ] qi-shui-music.conf (规则6条/兼容filter行0条/hostname6项)
+[OK ] reddit.conf (规则1条/兼容filter行0条/hostname1项)
+[OK ] smzdm.conf (规则13条/兼容filter行0条/hostname8项)
+[OK ] startup-ads.conf (规则499条/兼容filter行6条/hostname448项)
+    ⚠ L502: 规则主机 mapi.mafengwo.cn\ 不在 hostname 列表(可能漏拦截) ^https://mapi.mafengwo.cn\/ad\/get_launch_ad_list\/v2
+    ⚠ L667: 规则主机 mapi.sfbest.com\ 不在 hostname 列表(可能漏拦截) ^https://mapi.sfbest.com\/brokerservice-server\/cms\/getPosi
+    ⚠ L726: 规则主机 otheve.beacon.qq.com\ 不在 hostname 列表(可能漏拦截) ^https://otheve.beacon.qq.com\/analytics\/upload\?sid=.*
+    ⚠ L844: 规则主机 api.xiaoyi.com\ 不在 hostname 列表(可能漏拦截) ^https://api.xiaoyi.com\/v5\/app\/mobile\/ads
+    ⚠ L845: 规则主机 api.xiaoyi.com\ 不在 hostname 列表(可能漏拦截) ^https://api.xiaoyi.com\/v5\/app\/config\?userid=.*
+[OK ] tieba.conf (规则7条/兼容filter行1条/hostname2项)
+[OK ] wechat-unblock.conf (规则1条/兼容filter行0条/hostname2项)
+[OK ] weibo.conf (规则42条/兼容filter行3条/hostname6项)
+    ⚠ L161: 规则主机 api.weibo.cn 不在 hostname 列表(可能漏拦截) ^https://api.weibo.cn/2/!/client/light_skin
+[OK ] xiaohongshu.conf (规则25条/兼容filter行0条/hostname1项)
+[OK ] xiaoyuzhou.conf (规则5条/兼容filter行0条/hostname6项)
+[OK ] ximalaya.conf (规则24条/兼容filter行0条/hostname2项)
+[OK ] youtube.conf (规则6条/兼容filter行0条/hostname4项)
+
+重写: 错误0 / 警告6
+======================================================================
+[2] filters/*.list 分流规则格式校验
+======================================================================
+[OK ] adrules.conf (规则202170条)
+[ERR] ai.yaml (规则92条)
+    ✗ L5: 格式过短: payload:
+    ✗ L7: 未知类型 '- DOMAIN': - DOMAIN,api.statsig.com
+    ✗ L8: 未知类型 '- DOMAIN': - DOMAIN,browser-intake-datadoghq.com
+    ✗ L9: 未知类型 '- DOMAIN': - DOMAIN,static.cloudflareinsights.com
+    ✗ L10: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,algolia.net
+    ✗ L11: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,auth0.com
+    ✗ L12: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,cloudflare.com
+    ✗ L13: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,arkoselabs.com
+    ✗ L14: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,statsigapi.net
+    ✗ L15: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,featuregates.org
+    ✗ L16: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,identrust.com
+    ✗ L17: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,intercom.io
+    ✗ L18: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,intercomcdn.com
+    ✗ L19: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,launchdarkly.com
+    ✗ L20: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,segment.io
+    ✗ L21: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,amazonaws.com
+    ✗ L22: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,wp.com
+    ✗ L23: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,sentry.io
+    ✗ L24: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,stripe.com
+    ✗ L27: 未知类型 '- DOMAIN': - DOMAIN,cdn.usefathom.com
+    ✗ L28: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,anthropic.com
+    ✗ L29: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,claude.ai
+    ✗ L30: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,claude.com
+    ✗ L31: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,claudeusercontent.com
+    ✗ L34: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,cursor.sh
+    ✗ L35: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,cursor.com
+    ✗ L36: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,cursor-cdn.com
+    ✗ L37: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,cursorapi.com
+    ✗ L38: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,cursorvm.com
+    ✗ L41: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,dify.ai
+    ✗ L44: 未知类型 '- DOMAIN': - DOMAIN,ai.google.dev
+    ✗ L45: 未知类型 '- DOMAIN': - DOMAIN,makersuite.google.com
+    ✗ L46: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,gemini.google.com
+    ✗ L47: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,apis.google.com
+    ✗ L48: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,clients6.google.com
+    ✗ L49: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,clients4.google.com
+    ✗ L50: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,deepmind.com
+    ✗ L51: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,deepmind.google
+    ✗ L52: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,generativeai.google
+    ✗ L53: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,colab.google.com
+    ✗ L54: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,colab.research.google.com
+    ✗ L55: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,developerprofiles.google.com
+    ✗ L56: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,googleusercontent.com
+    ✗ L57: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,googleapis.com
+    ✗ L58: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+    ✗ L61: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,grazie.ai
+    ✗ L64: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,meta.ai
+    ✗ L65: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,meta.com
+    ✗ L69: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,notebooklm.google.com
+    ✗ L70: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,notebooklm.google
+    ✗ L74: 未知类型 '- DOMAIN': - DOMAIN,api.msn.com
+    ✗ L75: 未知类型 '- DOMAIN': - DOMAIN,assets.msn.com
+    ✗ L76: 未知类型 '- DOMAIN': - DOMAIN,copilot.microsoft.com
+    ✗ L77: 未知类型 '- DOMAIN': - DOMAIN,gateway.bingviz.microsoft.net
+    ✗ L78: 未知类型 '- DOMAIN': - DOMAIN,gateway.bingviz.microsoftapp.net
+    ✗ L79: 未知类型 '- DOMAIN': - DOMAIN,in.appcenter.ms
+    ✗ L80: 未知类型 '- DOMAIN': - DOMAIN,location.microsoft.com
+    ✗ L81: 未知类型 '- DOMAIN': - DOMAIN,odc.officeapps.live.com
+    ✗ L82: 未知类型 '- DOMAIN': - DOMAIN,r.bing.com
+    ✗ L83: 未知类型 '- DOMAIN': - DOMAIN,self.events.data.microsoft.com
+    ✗ L84: 未知类型 '- DOMAIN': - DOMAIN,services.bingapis.com
+    ✗ L85: 未知类型 '- DOMAIN': - DOMAIN,sydney.bing.com
+    ✗ L86: 未知类型 '- DOMAIN': - DOMAIN,www.bing.com
+    ✗ L87: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,api.microsoftapp.net
+    ✗ L88: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
+    ✗ L89: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,edgeservices.bing.com
+    ✗ L92: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,midjourney.com
+    ✗ L95: 未知类型 '- DOMAIN': - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+    ✗ L96: 未知类型 '- DOMAIN': - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+    ✗ L97: 未知类型 '- DOMAIN': - DOMAIN,production-openaicom-storage.azureedge.net
+    ✗ L98: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,ai.com
+    ✗ L99: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,chatgpt.com
+    ✗ L100: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,livekit.cloud
+    ✗ L101: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,oaistatic.com
+    ✗ L102: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,oaiusercontent.com
+    ✗ L103: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,openai.com
+    ✗ L104: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,azureedge.net
+    ✗ L105: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,imgix.net
+    ✗ L108: 未知类型 '- DOMAIN': - DOMAIN,pplx-res.cloudinary.com
+    ✗ L109: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,perplexity.ai
+    ✗ L110: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,pplx.ai
+    ✗ L111: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,perplexity.com
+    ✗ L114: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,poe.com
+    ✗ L115: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,poecdn.net
+    ✗ L118: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,x.ai
+    ✗ L119: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,grok.com
+    ✗ L122: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,mistral.ai
+    ✗ L125: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,huggingface.co
+    ✗ L126: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,hf.co
+    ✗ L127: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,hf.space
+    ✗ L130: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,manus.im
+    ✗ L131: 未知类型 '- DOMAIN-SUFFIX': - DOMAIN-SUFFIX,manuscdn.com
+[ERR] apple.list (规则1881条)
+    ✗ L1836: 未知类型 'HOST-WILDCARD': HOST-WILDCARD,*-content.icloud.com.cn,Apple
+    ✗ L1837: 未知类型 'HOST-WILDCARD': HOST-WILDCARD,apple.*,Apple
+    ✗ L1838: 未知类型 'HOST-WILDCARD': HOST-WILDCARD,apple.com.*,Apple
+    ✗ L1839: 未知类型 'HOST-WILDCARD': HOST-WILDCARD,appleworldwidedeveloper.*.net,Apple
+    ✗ L1840: 未知类型 'HOST-WILDCARD': HOST-WILDCARD,imac.*,Apple
+    ✗ L1841: 未知类型 'HOST-WILDCARD': HOST-WILDCARD,init*.push-apple.com.akadns.net,Apple
+    ✗ L1842: 未知类型 'HOST-WILDCARD': HOST-WILDCARD,init*.push.apple.com,Apple
+    ✗ L1843: 未知类型 'HOST-WILDCARD': HOST-WILDCARD,ipad.*,Apple
+    ✗ L1844: 未知类型 'HOST-WILDCARD': HOST-WILDCARD,ipadair.*,Apple
+    ✗ L1845: 未知类型 'HOST-WILDCARD': HOST-WILDCARD,ipadmini.*,Apple
+    ✗ L1846: 未知类型 'HOST-WILDCARD': HOST-WILDCARD,iphone.*,Apple
+    ✗ L1847: 未知类型 'HOST-WILDCARD': HOST-WILDCARD,ipod.*,Apple
+    ✗ L1848: 未知类型 'HOST-WILDCARD': HOST-WILDCARD,macbook.*,Apple
+    ✗ L1849: 未知类型 'HOST-WILDCARD': HOST-WILDCARD,macbookair.*,Apple
+    ✗ L1850: 未知类型 'HOST-WILDCARD': HOST-WILDCARD,macbookpro.*,Apple
+    ✗ L1891: 未知类型 'IP6-CIDR': IP6-CIDR,2403:300::/32,Apple
+    ✗ L1892: 未知类型 'IP6-CIDR': IP6-CIDR,2620:149::/32,Apple
+    ✗ L1893: 未知类型 'IP6-CIDR': IP6-CIDR,2a01:b740::/32,Apple
+[OK ] china-asn.list (规则5076条)
+[OK ] github.list (规则31条)
+[OK ] global-proxy.list (规则513条)
+[OK ] google-voice.list (规则1条)
+[OK ] spotify.list (规则30条)
+[OK ] streaming-se.list (规则11条)
+[OK ] streaming.list (规则258条)
+[OK ] unbreak.list (规则32条)
+[OK ] wechat.list (规则43条)
+
+分流: 错误110
+======================================================================
+[3] scripts/*.js node --check 语法校验
+======================================================================
+[OK ] 12306.js
+[OK ] bdpan.ads.js
+[OK ] bdpan.unlock.js
+[OK ] coolapk.js
+[OK ] jd_price.js
+[OK ] kkmusic.vip.js
+[OK ] netEase.adblock.js
+[OK ] pixivAds.js
+[OK ] youtube.response.js
+[OK ] zhihu.ads.js
+
+脚本: 错误0
+======================================================================
+校验完成: 错误 110 / 警告 6
+警告 = 规则主机不在hostname列表，可能漏拦截（墨鱼原样规则按提示处理）
