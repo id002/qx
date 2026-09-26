@@ -1,0 +1,1123 @@
+﻿[
+    {
+        "category": "è¿ç¨éç½®",
+        "catetype": "1",
+        "items": [
+            {
+                "name": "å¢¨é±¼å°ç½2.0",
+                "url": "https://ddgksf2013.top/Profile/QuantumultX.conf",
+                "desc": "è¶çº§VIP|æºè½åæµ|åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/13/93/cd139327-cf31-dfc0-714d-cd19f88a7194/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "èªç¨ç«ç®­éç½®",
+                "url": "https://ddgksf2013.top/Profile/Shadowrocket.conf",
+                "desc": "èæ¬è½¬æ¢|åæµ|åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/a3/80/48a38037-de9b-c900-0489-bea9c94d1c48/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            }
+        ]
+    },
+    {
+        "category": "ä¼åè§£é",
+        "catetype": "2",
+        "items": [
+            {
+                "name": "Spotify",
+                "url": "https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.conf",
+                "desc": "è§£éPremiumä¼å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ad/57/03/ad5703d9-baa3-e836-bddd-a8e19447ca42/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "app2smile"
+            },
+            {
+                "name": "BuyiTunes",
+                "url": "https://ddgksf2013.top/scripts/buyitunes.vip.js",
+                "desc": "iTunesè§£éåé",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/31/f1/e831f1a8-cea0-6c2b-a7c4-040690e1349f/itunesstore-0-0-1x_U007epad-0-1-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "RevenueCat",
+                "url": "https://ddgksf2013.top/scripts/revenuecat.vip.js",
+                "desc": "RevenueCatè§£éåé",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/39/17/d1/3917d18d-d6df-6573-aa4f-f183096a6c2d/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "drafts",
+                "url": "https://ddgksf2013.top/scripts/drafts.vip.js",
+                "desc": "è§£édraftsä¼å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/af/68/5daf6818-ece0-0d05-b1c6-9a293cc891f8/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "æç®æ±ç",
+                "url": "https://ddgksf2013.top/scripts/jijianhuilv.vip.js",
+                "desc": "è§£éæç®æ±çä¼å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/ee/1e/b2ee1efa-922c-4122-cbdb-6fd5d17bc926/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "æå¾ç¥å¨",
+                "url": "https://ddgksf2013.top/scripts/soutushenqi.vip.js",
+                "desc": "è§£éæå¾ç¥å¨ä¼å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/86/02/a186022a-1b63-7dae-3f86-342db2921040/AppIcon-0-0-1x_U007epad-0-0-0-11-0-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "ä¸å¹´å",
+                "url": "https://ddgksf2013.top/scripts/wannianli.vip.js",
+                "desc": "è§£éä¸å¹´åä¼å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/05/99/4d059980-d992-f517-b0fe-b50edd6fdf3b/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "Nicegram",
+                "url": "https://ddgksf2013.top/scripts/nicegram.vip.js",
+                "desc": "è§£éNicegramä¼å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/16/07/97160775-1c44-db43-54fb-680b1a78a386/AppIconLLC-0-0-1x_U007epad-0-1-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "Emby",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/EmbyPlugin.conf",
+                "desc": "è§£éEmbyä¼å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/7f/6a/a97f6a12-0798-8b80-e966-c4e04f3467dc/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "renzhipeng"
+            },
+            {
+                "name": "é·æé³ä¹",
+                "url": "https://ddgksf2013.top/scripts/kkmusic.vip.js",
+                "desc": "é³æºæ¿æ¢ï¼å¹¿ååå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/e8/ed/64/e8ed6458-ad69-1e11-8412-5794a8c29047/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "Appraven",
+                "url": "https://ddgksf2013.top/scripts/appraven.vip.js",
+                "desc": "ä¼ªè£ä¼åï¼ä¸»é¡µåå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/84/18/b58418d7-e592-5d46-9188-3627f3a9dc3d/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "ä¸èä¸­è¯»",
+                "url": "https://ddgksf2013.top/scripts/sanlianzhongdu.vip.js",
+                "desc": "å¿åç»å½ï¼èªå¨ä¼å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/d0/9f/6ed09fe4-a464-f830-2e4a-54f28696eb9d/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "Fimo",
+                "url": "https://ddgksf2013.top/scripts/fimo.vip.js",
+                "desc": "çäº«ä¼åä¸å±è¶å·",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/40/6f/46406f96-1c08-599c-16a5-582ceca89edf/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "Goodbility",
+                "url": "https://ddgksf2013.top/scripts/goodbility.vip.js",
+                "desc": "è§£éGåNç¬è®°ä¼å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/44/ee/8444ee19-798b-f2b7-a98c-c060a1bc3509/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "å¥è¯»",
+                "url": "https://ddgksf2013.top/scripts/judou.vip.js",
+                "desc": "å»æ°´å°ï¼ç»å½ä½¿ç¨",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/90/7a/2d907a96-6d64-fdcb-4295-c32fd41bd9f4/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "Endel",
+                "url": "https://ddgksf2013.top/scripts/endel.vip.js",
+                "desc": "ç»å½ä½¿ç¨ï¼å®éç½åªé³",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/1c/1c/771c1c13-a18f-f631-ead3-27fc0b9e1450/AppIcon-Original-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "langkhach"
+            },
+            {
+                "name": "Flightradar24",
+                "url": "https://ddgksf2013.top/scripts/flightradar24.vip.js",
+                "desc": "ç»å½ä½¿ç¨ï¼æè¡å©æ",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/24/44/292444b6-4ed2-3c7e-2c0a-850eebc0058c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "ä¸è¨",
+                "url": "https://ddgksf2013.top/scripts/yiyan.vip.js",
+                "desc": "ç»å½ä½¿ç¨ï¼åè¨å¥",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/16/07/b9/1607b9c2-fc13-6dcd-1b2c-2bfcf3e80c31/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "Session",
+                "url": "https://ddgksf2013.top/scripts/session.vip.js",
+                "desc": "çªèæ¶é",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d3/00/de/d300de11-48ca-4a43-6522-b7db20edad43/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "Caster"
+            },
+            {
+                "name": "å²è½¯æ å¾",
+                "url": "https://ddgksf2013.top/scripts/apowersoft.vip.js",
+                "desc": "ç»å½ä½¿ç¨ï¼é­æ³æ¶é¤",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/a3/aa/0aa3aa79-c5e6-9d90-03b4-67538fbba243/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "Vis",
+                "url": "https://ddgksf2013.top/scripts/vis.vip.js",
+                "desc": "ä»»å¡æå¡ï¼èªå¾ä¹ æ¯",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ae/02/83/ae028392-f9ab-2456-00d6-93045843672e/AppIcon_1_1-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "ççæ³",
+                "url": "https://ddgksf2013.top/scripts/vistopia.vip.js",
+                "desc": "è§£éä¼åæå±é³é¢",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/f1/55/12f155db-476a-d59a-8044-f3cfdfdb9c41/AppIcon-0-0-1x_U007epad-0-9-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "Slidebox",
+                "url": "https://ddgksf2013.top/scripts/slidebox.vip.js",
+                "desc": "è§£éä¼å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/16/ff/5916ff7b-d628-d017-0e38-3eefc723eff4/AppIcon-0-0-1x_U007emarketing-0-8-85-220.jpeg/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            }
+        ]
+    },
+    {
+        "category": "ææç«ç«",
+        "catetype": "6",
+        "items": [
+            {
+                "name": "åææå",
+                "url": "https://appraven.net/collection/77331175",
+                "desc": "ä¸èµ·åææå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/31/f1/e831f1a8-cea0-6c2b-a7c4-040690e1349f/itunesstore-0-0-1x_U007epad-0-1-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "å¸ç«ç«å",
+                "url": "https://appraven.net/collection/77299969",
+                "desc": "ä¸èµ·å¸ç«ç«å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/39/17/d1/3917d18d-d6df-6573-aa4f-f183096a6c2d/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            }
+        ]
+    },
+    {
+        "category": "åè½å¢å¼º",
+        "catetype": "2",
+        "items": [
+            {
+                "name": "JavDBç½é¡µ",
+                "url": "https://ddgksf2013.top/module/JavDB.WebEnhance.sgmodule",
+                "desc": "[æå¤±æ]å»å¹¿åï¼èªç±ççç",
+                "icon": "https://c0.jdbstatic.com/images/logo_120x120.png",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "ç½çåé",
+                "url": "https://ddgksf2013.top/scripts/bdpan.unlock.js",
+                "desc": "5åéå·è¯¾ï¼å¿«äººä¸æ­¥",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/11/71/b71171f4-25a8-0b19-5852-eaf702f72862/AppIcon-0-0-1x_U007ephone-0-1-0-0-sRGB-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "å¾®ä¿¡",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/UnblockURLinWeChat.conf",
+                "desc": "å¾®ä¿¡110è§£éè¢«å±è½çURL",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/f3/96/2bf39634-200b-6e75-f398-bb982b085645/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "zZPiglet"
+            },
+            {
+                "name": "Googleäººæº",
+                "url": "https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Snippet/GoogleCAPTCHA.snippet",
+                "desc": "è§£å³Googleæç´¢äººæºéªè¯",
+                "icon": "https://usehalo.com/wp-content/uploads/2025/06/google-recaptcha-logo.png",
+                "opt_parser": "false",
+                "author": "NobyDa"
+            },
+            {
+                "name": "Safariè¶çº§æç´¢",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Html/Q-Search.conf",
+                "desc": "ç¿»è¯Â·ç¤¾åºÂ·è´­ç©Â·æ¢åºÂ·è§é¢Â·å¼æ",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/ea/33/6bea338b-1857-2906-4a84-38d8583eb74b/AppIcon-0-0-1x_U007epad-0-11-0-85-220-0.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "boxjs",
+                "url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf",
+                "desc": "èæ¬ç®¡çåæ°æ®æä¹åå·¥å·",
+                "icon": "https://docs.boxjs.app/~gitbook/image?url=https%3A%2F%2F1532234502-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fspaces%252F-MDxD9HYU2CoF7Jg2BEp%252Favatar-1597212951484.png%3Fgeneration%3D1597212951933642%26alt%3Dmedia&width=32&dpr=2&quality=100&sign=5c3c97f7&sv=2",
+                "opt_parser": "false",
+                "author": "chavyleung"
+            },
+            {
+                "name": "DualSubs",
+                "url": "https://github.com/DualSubs/YouTube/releases/latest/download/DualSubs.YouTube.snippet",
+                "desc": "YouTubeå¢å¼ºååè¯­å­å¹",
+                "icon": "https://avatars.githubusercontent.com/u/100578089?s=80&v=4",
+                "opt_parser": "false",
+                "author": "DualSubs"
+            },
+            {
+                "name": "Googleéå®å",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/Html/General.conf",
+                "desc": "å°.cnéå®åè³.com",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/cd/5c/bdcd5ca2-c12b-601f-6537-4364764770bd/logo_gsa_gradient_ios_color-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220-0.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "DivineEngine"
+            },
+            {
+                "name": "Bç«å­å¹",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/Function/Bilibili_CC.conf",
+                "desc": "éç¨ç¹ä½CCå­å¹è½¬ç®ä½",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/d4/75/9dd475a9-e25d-d508-33d0-6bd9df39ec25/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "SubStore",
+                "url": "https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/QX.snippet",
+                "desc": "æºåºè®¢éç®¡çå·¥å·",
+                "icon": "https://avatars.githubusercontent.com/u/108168464?v=4",
+                "opt_parser": "false",
+                "author": "Peng-YM"
+            },
+            {
+                "name": "WeatherKit",
+                "url": "https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.snippet",
+                "desc": "è§£éè¹æå¤©æ°",
+                "icon": "https://avatars.githubusercontent.com/u/2111377?v=4",
+                "opt_parser": "false",
+                "author": "NSRingo"
+            },
+            {
+                "name": "äº¬ä¸åå²æ¯ä»·",
+                "url": "https://raw.githubusercontent.com/wf021325/qx/master/js/jd_price.js",
+                "desc": "æ¢æ¢ä¹°è·åckåä½¿ç¨",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/b2/5e/6ab25e7a-a707-732b-3f4e-91430fe0155f/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "wf021325"
+            },
+            {
+                "name": "PikPak",
+                "url": "https://ddgksf2013.top/scripts/pikpak.fnc.js",
+                "desc": "è§£å³å¤§éæ æ³ä½¿ç¨é®é¢",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/a7/aa/88a7aa36-1d48-6439-2138-9e7ace2a810e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "Swiftgram",
+                "url": "https://ddgksf2013.top/module/Redirect2Swift.sgmodule",
+                "desc": "TGå¤é¾æ¥è·³è½¬Swiftgram",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/54/65/1b546531-782a-330d-b6c2-2e429dff3876/Swiftgram-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "Turrit",
+                "url": "https://ddgksf2013.top/module/Redirect2Turrit.sgmodule",
+                "desc": "TGå¤é¾æ¥è·³è½¬Turrit",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/46/3d/ca463d3b-e85c-0fd2-b0d7-04c2affa47d1/Turrit-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "å°çº¢ä¹¦",
+                "url": "https://ddgksf2013.top/rewrite/XiaoHongShuBlockVideo.conf",
+                "desc": "å±è½é¦é¡µä¿¡æ¯æµVideo",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/79/04/1c/79041ce1-c33d-6243-4f58-fd35ba15a90a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "Reddit",
+                "url": "https://gist.githubusercontent.com/RavelloH/68ed0626dae69a1ce7c8ad6887087ea1/raw/main.snippet",
+                "desc": "èªå¨ç¿»è¯",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/9e/1a/f69e1a44-dde7-cb85-812a-48c333a9ecbf/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "RavelloH"
+            },
+            {
+                "name": "Nagram",
+                "url": "https://ddgksf2013.top/module/Redirect2Ng.sgmodule",
+                "desc": "TGå¤é¾æ¥è·³è½¬Nagram",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/93/ed/b193ed97-6b1b-d6d5-ca0a-b42e52adfffc/NagramBuild-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            }
+        ]
+    },
+    {
+        "category": "å»å¹¿å",
+        "catetype": "2",
+        "items": [
+            {
+                "name": "å¢¨é±¼å»å¼å±2.0",
+                "url": "https://ddgksf2013.top/rewrite/StartUpAds.conf",
+                "desc": "å·²æå400ä½åºç¨å»å¼å±",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/c6/0d/81c60d9a-26eb-b45d-41e7-77eba2e5c9e5/default-0-1x_U007epad-0-1-0-0-sRGB-85-220-0.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "Youtube",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/YoutubeAds.conf",
+                "desc": "è§é¢èªå¨PIPï¼èæ¯æ­æ¾",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/d8/8a/31d88a82-68df-84da-3686-2d2ff511375c/logo_youtube_2024_q4_color-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220-0.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "Maasea"
+            },
+            { 
+                "name": "åå©åå©", 
+                "url": "https://ddgksf2013.top/rewrite/BiliBiliAds.conf", 
+                "desc": "å¨é¢åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/92/11/ff9211f5-88d3-2d87-54d8-0d328407db88/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            { 
+                "name": "åå©åå©Lite", 
+                "url": "https://ddgksf2013.top/rewrite/BiliBiliAdsLite.conf", 
+                "desc": "è½»éçå»å¹¿å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/92/11/ff9211f5-88d3-2d87-54d8-0d328407db88/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "ç¥ä¹",
+                "url": "https://ddgksf2013.top/scripts/zhihu.ads.js",
+                "desc": "åºç¨å¨é¢åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/09/c3/fd09c3b6-e37c-a7f0-b7c1-0e21653dd271/AppIcon-0-0-1x_U007emarketing-0-7-0-0-sRGB-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "é«å¾·å°å¾",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/AmapAds.conf",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/e4/3c/dde43ce3-7a1a-c42b-6a1d-a2045a7bf843/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "å¾®å",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/WeiboAds.conf",
+                "desc": "å¾®ååè½»äº«çåå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fe/39/ae/fe39ae93-7272-4a10-ac7a-8920af80786e/WeiboAppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "ç¾åº¦ç½ç",
+                "url": "https://ddgksf2013.top/scripts/bdpan.ads.js",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/11/71/b71171f4-25a8-0b19-5852-eaf702f72862/AppIcon-0-0-1x_U007ephone-0-1-0-0-sRGB-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "ç¾åº¦å°å¾",
+                "url": "https://ddgksf2013.top/scripts/bdmap.ads.js",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/52/90/d55290a1-22ed-6be1-7f3d-b1f95fafd1c0/appIconLiquid-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "åé©¬æé",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Ximalaya.conf",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/02/20/f202204c-62bd-548d-3828-11bedafd1ef3/AppIcon-0-1x_U007emarketing-0-8-0-sRGB-85-220-0.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "å°çº¢ä¹¦",
+                "url": "https://ddgksf2013.top/rewrite/XiaoHongShuAds.conf",
+                "desc": "å»å¹¿åå»æ°´å°",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/79/04/1c/79041ce1-c33d-6243-4f58-fd35ba15a90a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "æ·ç¥¨ç¥¨",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/TaoPiaoPiaoAds.conf",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/ac/24/0cac24e9-6102-038c-5ff0-57344032f81b/AppIcon-0-1x_U007emarketing-0-8-0-sRGB-85-220-0.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "Keep",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/KeepAds.conf",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/fe/7c/70fe7ce4-9e33-0777-1862-5312dff6a9c6/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "Pixiv",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pixivAds.js",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/ca/be/9ecabeec-0537-8280-6111-845223670fb0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "é·å®",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Scripts/master/coolapk.js",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/d2/54/65d25411-e484-c48f-c460-95006047b675/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "12306",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Scripts/master/12306.js",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/5e/ac/435eaceb-0c86-383c-c262-2e9a405c8ecf/AppIcon-0-0-1x_U007emarketing-0-9-0-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "ç½æäºé³ä¹",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/NeteaseAds.conf",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/8e/ac/4d8eac23-5f48-6b79-4fca-49007a04a02d/AppIcon-1x_U007emarketing-0-9-0-0-85-220-0.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "èé¸è£¹è£¹",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/CainiaoAds.conf",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/0e/55/740e5512-1e4a-a0b9-16bf-245826bb5faf/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "èµ·ç¹",
+                "url": "https://raw.githubusercontent.com/app2smile/rules/master/module/qidian.conf",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/5f/1e/915f1ed5-b8a6-2b50-14af-b647ce26afd5/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-GLES2_U002c0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "app2smile"
+            },
+            {
+                "name": "éæè®°",
+                "url": "https://ddgksf2013.top/scripts/suishouji.ads.js",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/39/2f/91392fc8-3279-40b7-af9e-d76640897e6b/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "ç®ç®è¾",
+                "url": "https://gist.githubusercontent.com/ddgksf2013/bb1dadbd32f67c68772caebcc70b0a33/raw/pipixia.adblock.js",
+                "desc": "å»å¹¿åå»æ°´å°",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/a3/73/dda3732c-4368-3e0f-65cd-0a63f6c3cbe5/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "ä»ä¹å¼å¾ä¹°",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/SmzdmAds.conf",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/55/9a/97559a57-6817-0054-3784-95cc171efa04/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "å¾®ä¿¡éè¯»",
+                "url": "https://raw.githubusercontent.com/Maasea/sgmodule/master/WeRead.sgmodule",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/64/32/28/64322870-1a66-f660-2c44-adeb7241edcf/AppIcon-0-1x_U007epad-0-11-0-85-220-0.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "Maasea"
+            },
+            {
+                "name": "å½©äºå¤©æ°",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/CaiYunAds.conf",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7c/d1/12/7cd112e1-63a1-8e24-3442-be2d05090854/AppIcon-free-0-0-1x_U007epad-0-1-0-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "ç¾åº¦è´´å§",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/TieBaAds.conf",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/07/b9/0007b99b-b5c8-8f29-b839-99ace64aa3ca/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sRGB-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "app2smile"
+            },
+            {
+                "name": "Reddit",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/RedditAds.conf",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/9e/1a/f69e1a44-dde7-cb85-812a-48c333a9ecbf/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "ç½æé®ç®±å¤§å¸",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/NeteaseMailAds.conf",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/f5/ab/78f5ab85-54f0-595e-b076-e968c8d9b869/AppIconStore-0-1x_U007emarketing-0-8-0-85-220-0.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "é²é±¼",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/GoofishAds.conf",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/e8/70/9ce87020-9221-ab55-62d0-f4a1429d9b50/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "æ±½æ°´é³ä¹",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/QiShuiMusicAds.conf",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/f0/c8/b7f0c82f-c7b0-eeb4-bcc3-1c6491955a1c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "å¾®ä¿¡å°ç¨åº",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/Applet.conf",
+                "desc": "å»å¹¿åè§£éåå®¹éè",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/f3/96/2bf39634-200b-6e75-f398-bb982b085645/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "å°å®å®",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/XiaoYuZhouAds.conf",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/b2/61/aeb26165-26a0-be7d-2eb1-e8b10459eece/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "è½¦æ¥äº",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/CheLaiLeAds.conf",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/23/4f/e7234f1c-2d69-b23f-0932-21696e9fb71d/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "å¢¨è¿¹å¤©æ°",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/MoJiWeatherAds.conf",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/eb/1e/32eb1e2a-c26f-dad3-1265-b082fb0dec48/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "è±ç£ç½é¡µ",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Html/Douban.conf",
+                "desc": "ç½é¡µä¼åï¼å¿«æ·è§å½±",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/94/30/0394305e-7a71-903b-cc00-20c7a6fb92a6/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "ç¾åº¦æç´¢",
+                "url": "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo.conf",
+                "desc": "å»å¹¿å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/fe/01/d1fe01c8-6691-17e0-37b4-618c5385723e/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "limbopro"
+            },
+            {
+                "name": "123äºç",
+                "url": "https://ddgksf2013.top/scripts/123pan.ads.js",
+                "desc": "å»é¤ç½é¡µå¹¿å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/20/42/f820423b-c0a1-51ec-648e-d97e990fa273/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "Twitch",
+                "url": "https://raw.githubusercontent.com/Yswag/for-own-use/refs/heads/main/module/TwitchAdBlock.sgmodule",
+                "desc": "å»é¤å¹¿å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/44/f4/3e44f4d3-32da-0c39-c92e-efeb8e94ca97/TwitchAppIcon-0-0-1x_U007epad-0-1-0-0-0-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "Yswag"
+            },
+            {
+                "name": "CmsAdblock",
+                "url": "https://raw.githubusercontent.com/Yswag/for-own-use/refs/heads/main/module/cmsAdblock.sgmodule",
+                "desc": "å»é¤æçå¹¿å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/5a/92/f55a92aa-cdf8-826e-9307-bf6dceb6cb3e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/120x120bb.jpg",
+                "opt_parser": "true",
+                "author": "Yswag"
+            },
+            {
+                "name": "å½±è§å»å¹¿å",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/FakeiOSAds.conf",
+                "desc": "å»é¤IOSä¼ªè£å¹¿å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/21/a8/3b21a8e0-62ad-a852-75db-9bea48f11b13/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "ä¸­å½ç§»å¨",
+                "url": "https://raw.githubusercontent.com/Yuheng0101/X/refs/heads/main/Scripts/ChinaMobile/NoAds.js",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/60/81/99/60819907-f7cd-885e-c773-f8a1812aefad/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sRGB-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "Yuheng"
+            },
+            {
+                "name": "ä¸­å½èé",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/ChinaUnicomAds.conf",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/97/35/139735d4-8fa9-73c1-147c-ae2ddd9c4c3c/AppIcon-0-0-1x_U007epad-0-11-0-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "ä¸­å½å¹¿çµ",
+                "url": "https://ddgksf2013.top/rewrite/ChinaBroadAds.conf",
+                "desc": "å¨é¢åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/4e/55/d74e55df-55f3-8b75-502d-a4ccf1ec69cc/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "MissAVç½é¡µ",
+                "url": "https://ddgksf2013.top/scripts/missav.ads.js",
+                "desc": "ååç½é¡µ",
+                "icon": "https://favicon.im/missav.ws",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "Pornhubç½é¡µ",
+                "url": "https://ddgksf2013.top/scripts/pornhub.ads.js",
+                "desc": "ååç½é¡µ",
+                "icon": "https://ei.phncdn.com/www-static/favicon.ico",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "å¿«çæ¼«ç»",
+                "url": "https://ddgksf2013.top/rewrite/KuaiKanComicsAds.conf",
+                "desc": "åºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/74/26/2c7426c8-0560-4337-4f78-371e89a6439f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "JavDBåºç¨",
+                "url": "https://ddgksf2013.top/scripts/javdbapp.ads.js",
+                "desc": "åååºç¨åå¹¿å",
+                "icon": "https://c0.jdbstatic.com/images/logo_120x120.png",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "ç¾æ",
+                "url": "https://ddgksf2013.top/rewrite/MeiYouAds.conf",
+                "desc": "å¨é¢åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5a/dc/dd/5adcddbc-e0bc-2bf9-9f34-7eeb56eed381/AppIcon-Release-0-0-1x_U007epad-0-11-0-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "éªç",
+                "url": "https://ddgksf2013.top/rewrite/XueQiuAds.conf",
+                "desc": "å»å¼å±å»å¼¹çª",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/71/55/d271550f-9012-2ded-3af0-2e5557b48be8/AppIcon-0-1x_U007epad-0-1-0-0-sRGB-85-220-0.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "iDaily",
+                "url": "https://ddgksf2013.top/rewrite/iDailyAds.conf",
+                "desc": "iç³»ååºç¨ååå¤ç",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/53/6a/81536a2c-5561-528c-ac97-e4c6a1b87538/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "V2exç½é¡µ",
+                "url": "https://ddgksf2013.top/scripts/v2ex.ads.js",
+                "desc": "å»ä¿¡æ¯æµååºé¨å¹¿å",
+                "icon": "https://www.v2ex.com/static/favicon.ico",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "åå å ",
+                "url": "https://ddgksf2013.top/rewrite/MaiDuiDuiAds.conf",
+                "desc": "å¨é¢ååå»çå¤´å¹¿å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/b9/cb/19b9cbe4-5ac3-f418-ce14-fde7cb563eb4/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "åé£å¤©æ°",
+                "url": "https://ddgksf2013.top/rewrite/HeFengWeatherAds.conf",
+                "desc": "å»é¤Bannerå¹¿å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/30/1e/be301e6f-e7e1-748e-a2db-591e66967582/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "åªåè§é¢",
+                "url": "https://ddgksf2013.top/rewrite/MiGuVideoAds.conf",
+                "desc": "å¨é¢åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/44/c3/fa44c346-c6d3-225b-3f02-8f81b6c9a4e0/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "çå­å½±è§",
+                "url": "https://ddgksf2013.top/rewrite/GuaZiVideoAds.conf",
+                "desc": "å¨é¢åå",
+                "icon": "https://gz360.tv/favicon.ico",
+                "opt_parser": "false",
+                "author": "ZenmoFeiShi"
+            },
+            {
+                "name": "DLabel",
+                "url": "https://ddgksf2013.top/rewrite/DLabelAds.conf",
+                "desc": "å¹¿ååå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/55/11/b55511db-bc84-f4ca-db75-2b5b0b1c4f41/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "æºèæè",
+                "url": "https://ddgksf2013.top/rewrite/ZhiLianZhaoPinAds.conf",
+                "desc": "å»å¼å±åå¹¿åå¤ç",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/5a/d0/c05ad002-4899-59f1-1932-eab4108af0b5/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "å¤§å¸åå½±è§",
+                "url": "https://ddgksf2013.top/rewrite/DaShiXiongAds.conf",
+                "desc": "å»å¼¹çªåå",
+                "icon": "https://www.dashixiong66.com/shixiong/bsd6563.png",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "é©¾æ ¡ä¸ç¹é",
+                "url": "https://ddgksf2013.top/rewrite/JiaXiaoYiDianTongAds.conf",
+                "desc": "å»å¼å±å¨é¢åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/23/d8/a223d8f8-4c82-68c7-e9ae-fe39d538a262/AppIcon126-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "è¾è®¯ææ¡£",
+                "url": "https://ddgksf2013.top/rewrite/TencentDocAds.conf",
+                "desc": "å»å¼å±å»å¼¹çª",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cc/56/85/cc5685ce-cb3a-e99f-a546-7bc795253d55/AppIcon-0-1x_U007epad-0-11-0-0-sRGB-GLES2_U002c0-85-220-0.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "éåæ°æ®",
+                "url": "https://ddgksf2013.top/rewrite/JinShiDataAds.conf",
+                "desc": "å»å¼å±åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fe/c6/4e/fec64e13-77a4-b8c2-817c-8ee229ded1f7/AppIcon_lgd-0-0-1x_U007epad-0-11-0-0-sRGB-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "å¨é",
+                "url": "https://ddgksf2013.top/rewrite/WeiFengAds.conf",
+                "desc": "ååè§£éæ¬å°ä¼å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/65/fa/4a65face-c771-1114-7d62-14630fbab65a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "åå©åå©æ¼«ç»",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/BiliBiliComicsAds.conf",
+                "desc": "å¨é¢åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/aa/56/20/aa5620da-a77b-439d-0959-e2b0080f49f9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "å»åºå®",
+                "url": "https://ddgksf2013.top/scripts/yangjibao.vip.js",
+                "desc": "å¨é¢åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/91/ae/3a91aed5-b73c-ea21-5246-f085e293e0cf/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "true",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "å¤§éº¦",
+                "url": "https://ddgksf2013.top/rewrite/DaMaiAds.conf",
+                "desc": "å»å¼å±åç¸å³åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/b0/e0/3db0e0f1-e1be-3b67-7b4b-76d9d10a4384/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "ç±åæ¶",
+                "url": "https://ddgksf2013.top/rewrite/AiHuiShouAds.conf",
+                "desc": "å¨é¢åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/77/6f/03776f5b-ee46-8fb2-d604-e5ee23a5aa9d/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "ä¸­ç¾½å¨çº¿",
+                "url": "https://ddgksf2013.top/rewrite/ZhongYuZaiXianAds.conf",
+                "desc": "å»å¼å±ååååºç¨",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/00/ce/0f00cecf-f79c-08bd-02cd-1649ef14a7dd/AppIcon-0-0-1x_U007emarketing-0-5-0-sRGB-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "è´¢æ°",
+                "url": "https://ddgksf2013.top/rewrite/CaiXinAds.conf",
+                "desc": "å»å¼å±ãåå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/13/69/271369e9-7506-aa64-6c10-72bbe9a84938/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "çå¹¸åå¡",
+                "url": "https://ddgksf2013.top/rewrite/LuckinCoffeeAds.conf",
+                "desc": "å»å¼å±ãåå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/78/86/68788639-09a7-1bd9-558d-e8d0717d2ac0/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "èªæçºµæ¨ª",
+                "url": "https://ddgksf2013.top/rewrite/UmetripAds.conf",
+                "desc": "å»å¼å±ãåºç¨åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/d0/fa/7fd0faa3-37e5-6b44-faa2-3e5fb42cbad9/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "Lofter",
+                "url": "https://ddgksf2013.top/rewrite/LofterAds.conf",
+                "desc": "å»å¼å±åå",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/c9/dd/cac9ddf1-be6d-d785-379a-f2404b84b1bb/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "NBpro",
+                "url": "https://ddgksf2013.top/rewrite/NBProAds.conf",
+                "desc": "ååï¼è§£éä¼å",
+                "icon": "https://nbtool8.com/favicon.ico",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            }
+        ]
+    },
+    {
+        "category": "è¿ç¨åæµ",
+        "catetype": "3",
+        "items": [
+            {
+                "name": "å¸¸è§Ai",
+                "url": "https://ddgksf2013.top/filter/Ai.yaml",
+                "desc": "AIåæµåé",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/b9/69/4eb969f3-d7cd-cc23-b6d0-bb9930955a31/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/120x120bb.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "è¹æAi",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Filter/refs/heads/master/AppleIntelligence.list",
+                "desc": "AppleIntelligence",
+                "icon": "https://www.apple.com/newsroom/images/logos/quick-reads-logos/Apple-Intelligence.jpg.square_social.jpg",
+                "opt_parser": "false",
+                "author": "ddgksf2013"
+            },
+            {
+                "name": "å±è½IOSæ´æ°",
+                "url": "https://raw.githubusercontent.com/ddgksf2013/Filter/refs/heads/master/BlockiOSUpdate.list",
+                "desc": "åæµ",
+                "icon": "https://cdsassets.apple.com/live/7WUAS350/images/ios/ios-26-badge-icon.png",
+                "opt_parser": "false",
+                "author": "DivineEngine"
+            },
+            {
+                "name": "åæµä»åº",
+                "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX",
+                "desc": "ä¸ä¸ªå­ï¼å¨",
+                "icon": "https://avatars.githubusercontent.com/u/27717518?v=4",
+                "opt_parser": "false",
+                "author": "blackmatrix7"
+            }
+        ]
+    },
+    {
+        "category": "è¿ç¨å¾æ ",
+        "catetype": "4",
+        "items": [
+            {
+                "name": "Qureå¾æ ",
+                "url": "https://github.com/Koolson/Qure/raw/master/Other/QureColor-All.json",
+                "desc": "å½©è²å®æ´ç",
+                "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Frog.png",
+                "opt_parser": "false",
+                "author": "Koolson"
+            },
+            {
+                "name": "Qureå¾æ ",
+                "url": "https://raw.githubusercontent.com/Koolson/Qure/master/Other/Quremini.json",
+                "desc": "å¾æ åº mini çæ¬",
+                "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Direct.png",
+                "opt_parser": "false",
+                "author": "Koolson"
+            },
+            {
+                "name": "Orz-3å¾æ ",
+                "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color+.json",
+                "desc": "å¤§å¾æ é£æ ¼",
+                "icon": "https://avatars.githubusercontent.com/u/61905744?v=4",
+                "opt_parser": "false",
+                "author": "Orz-3"
+            },
+            {
+                "name": "Orz-3å¾æ ",
+                "url": "https://raw.githubusercontent.com/Orz-3/mini/master/miniColor.json",
+                "desc": "Orz-3 mini å½©è²ç",
+                "icon": "https://avatars.githubusercontent.com/u/61905744?v=4",
+                "opt_parser": "false",
+                "author": "Orz-3"
+            },
+            {
+                "name": "æ³¡æ³¡å¾æ ",
+                "url": "https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/other/Cute.json",
+                "desc": "æ³¡æ³¡æç»é£æ ¼å¾æ ",
+                "icon": "https://avatars.githubusercontent.com/u/104237432?v=4",
+                "opt_parser": "false",
+                "author": "tugepaopao"
+            },
+            {
+                "name": "å°ç«åªå¾æ ",
+                "url": "https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/Catcat.json",
+                "desc": "å¯ç±çå°ç«åªå¾æ ",
+                "icon": "https://avatars.githubusercontent.com/u/61193825?v=4",
+                "opt_parser": "false",
+                "author": "Yuanxsxs"
+            },
+            {
+                "name": "Semporia",
+                "url": "https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Semporia.json",
+                "desc": "Semporia æç»é£å¾æ åº",
+                "icon": "https://avatars.githubusercontent.com/u/29939899?v=4",
+                "opt_parser": "false",
+                "author": "Semporia"
+            },
+            {
+                "name": "ç¦»æ­å¾æ ",
+                "url": "https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/ligeicon.json",
+                "desc": "è½¯ä»¶å¾æ åé",
+                "icon": "https://avatars.githubusercontent.com/u/97075835?v=4",
+                "opt_parser": "false",
+                "author": "lige47"
+            },
+            {
+                "name": "Embyå¾æ ",
+                "url": "https://raw.githubusercontent.com/baiitang/Sakura/main/Fileball/Yuan/tubiao.json",
+                "desc": "å¾æ æç§æåæç¾¤åå½å",
+                "icon": "https://avatars.githubusercontent.com/u/70733077?v=4",
+                "opt_parser": "false",
+                "author": "baiitang"
+            }
+        ]
+    },
+    {
+        "category": "åç½®æ¨¡å",
+        "catetype": "9",
+        "items": [
+            {
+                "name": "ç«ç®­ä¸ç¨",
+                "url": "https://ddgksf2013.top/module/ScriptHub.Rocket.sgmodule",
+                "desc": "æ¬é¡µé¢å°ç«ç®­ä¸é®æ·»å æ¨¡å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/a3/80/48a38037-de9b-c900-0489-bea9c94d1c48/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ScriptHub"
+            },
+            {
+                "name": "Surgeä¸ç¨",
+                "url": "https://ddgksf2013.top/module/ScriptHub.Surge.sgmodule",
+                "desc": "æ¬é¡µé¢Sugeä¸é®æ·»å æ¨¡å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/03/0f/cb030f7e-d069-577c-b95d-ebd80cd735ca/AppIconS-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ScriptHub"
+            },
+            {
+                "name": "Loonä¸ç¨",
+                "url": "https://ddgksf2013.top/module/ScriptHub.Loon.plugin",
+                "desc": "æ¬é¡µé¢Loonä¸é®æ·»å æä»¶",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/2a/ad/fc2aad49-1756-30c4-3b20-a08e03614759/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ScriptHub"
+            },
+            {
+                "name": "Egernä¸ç¨",
+                "url": "https://ddgksf2013.top/module/ScriptHub.Egern.sgmodule",
+                "desc": "æ¬é¡µé¢Egernä¸é®æ·»å æ¨¡å",
+                "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/7e/ba/ff7ebace-faa2-a6a0-8bf4-921d34a8f215/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
+                "opt_parser": "false",
+                "author": "ScriptHub"
+            }
+        ]
+    }
+]
+
+
+
+
+
+
+
+
+

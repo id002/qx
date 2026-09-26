@@ -1,0 +1,10 @@
+﻿# 下载失败的HTML垃圾文件（无扩展名）
+QX-Knowledge/00-原始资料/去广告规则/other/QuantumultX
+
+# 临时下载目录
+*_下载中/
+_下载中/
+
+# Windows系统文件
+Thumbs.db
+Desktop.ini
