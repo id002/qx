@@ -1,0 +1,189 @@
+
+[文件内重复] MyAdBlock.conf 共796条规则: 无重复 ✓
+
+[文件内重复] test.conf 共496条规则: 无重复 ✓
+
+[文件内重复] MyProfile.conf 共71条规则: 无重复 ✓
+
+[文件内重复] rewrites\amap.conf 共18条规则: 无重复 ✓
+
+[文件内重复] rewrites\applet.conf 共5条规则: 无重复 ✓
+
+[文件内重复] rewrites\bilibili-lite.conf 共8条规则: 无重复 ✓
+
+[文件内重复] rewrites\bilibili.conf 共27条规则: 无重复 ✓
+
+[文件内重复] rewrites\caiyun.conf 共12条规则: 无重复 ✓
+
+[文件内重复] rewrites\china-unicom.conf 共10条规则: 无重复 ✓
+
+[文件内重复] rewrites\da-shi-xiong.conf 共3条规则: 无重复 ✓
+
+[文件内重复] rewrites\douban.conf 共1条规则: 无重复 ✓
+
+[文件内重复] rewrites\duolingo.conf 共5条规则: 无重复 ✓
+
+[文件内重复] rewrites\fake-ios.conf 共1条规则: 无重复 ✓
+
+[文件内重复] rewrites\goofish.conf 共14条规则: 无重复 ✓
+
+[文件内重复] rewrites\google-redirect.conf 共1条规则: 无重复 ✓
+
+[文件内重复] rewrites\keep.conf 共17条规则: 无重复 ✓
+
+[文件内重复] rewrites\netease-mail.conf 共7条规则: 无重复 ✓
+
+[文件内重复] rewrites\netease.conf 共29条规则: 无重复 ✓
+
+[文件内重复] rewrites\q-search.conf 共83条规则: 无重复 ✓
+
+[文件内重复] rewrites\qi-shui-music.conf 共6条规则: 无重复 ✓
+
+[文件内重复] rewrites\reddit.conf 共1条规则: 无重复 ✓
+
+[文件内重复] rewrites\smzdm.conf 共13条规则: 无重复 ✓
+
+[文件内重复] rewrites\startup-ads.conf 共496条规则: 无重复 ✓
+
+[文件内重复] rewrites\tieba.conf 共8条规则: 无重复 ✓
+
+[文件内重复] rewrites\wechat-unblock.conf 共1条规则: 无重复 ✓
+
+[文件内重复] rewrites\weibo.conf 共42条规则: 无重复 ✓
+
+[文件内重复] rewrites\xiaohongshu.conf 共25条规则: 无重复 ✓
+
+[文件内重复] rewrites\xiaoyuzhou.conf 共5条规则: 无重复 ✓
+
+[文件内重复] rewrites\ximalaya.conf 共24条规则: 无重复 ✓
+
+[文件内重复] rewrites\youtube.conf 共6条规则: 无重复 ✓
+
+[文件内重复] MyProfile.conf 共71条规则: 无重复 ✓
+
+[文件内重复] filters\adrules.conf 共0条规则: 无重复 ✓
+
+[文件内重复] filters\apple.list 共1881条规则: 无重复 ✓
+
+[文件内重复] filters\china-asn.list 共5076条规则: 无重复 ✓
+
+[文件内重复] filters\github.list 共31条规则: 无重复 ✓
+
+[文件内重复] filters\global-proxy.list 共512条规则: 无重复 ✓
+
+[文件内重复] filters\google-voice.list 共1条规则: 无重复 ✓
+
+[文件内重复] filters\spotify.list 共30条规则: 无重复 ✓
+
+[文件内重复] filters\streaming-se.list 共11条规则: 无重复 ✓
+
+[文件内重复] filters\streaming.list 共256条规则: 无重复 ✓
+
+[文件内重复] filters\unbreak.list 共31条规则: 无重复 ✓
+
+[文件内重复] filters\wechat.list 共43条规则: 无重复 ✓
+
+============================================================
+[跨文件重复]
+
+--- rewrites内部: 8 条 ---
+  [MyAdBlock.conf,test.conf,rewrites\goofish.conf,rewrites\startup-ads.conf] ^http:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,4}(:\d+)?\/amdc\/mobileDispatch url script-response-body https://raw.github
+  [MyAdBlock.conf,test.conf,rewrites\keep.conf,rewrites\startup-ads.conf] ^https?:\/\/hc-ssp\.sm\.cn url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\smzdm.conf,rewrites\startup-ads.conf] ^https?:\/\/.*zdmimg\.com\/cpm\/api\/v\d\/advert_distribution\/get_all_advertise url script-response-body https://raw.gi
+  [MyAdBlock.conf,rewrites\bilibili-lite.conf,rewrites\bilibili.conf] ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list url script-response-body https://ddgksf2013.top/scripts/bilibili.ads.
+  [MyAdBlock.conf,rewrites\bilibili-lite.conf,rewrites\bilibili.conf] ^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index url script-response-body https://ddgksf2013.top/scripts/bilibili.ads.
+  [MyAdBlock.conf,rewrites\bilibili-lite.conf,rewrites\bilibili.conf] ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab url script-response-body https://ddgksf2013.top/scripts/bilibili.
+  [MyAdBlock.conf,rewrites\bilibili-lite.conf,rewrites\bilibili.conf] ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine url script-response-body https://ddgksf2013.top/scripts/bilibili.ad
+  [MyAdBlock.conf,rewrites\bilibili-lite.conf,rewrites\bilibili.conf] ^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity url script-response-body https://ddgksf2013.top/scripts/bilib
+
+--- rewrites↔MyAdBlock/test: 719 条 ---
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/2026.08.29/c415/v2.0.648 url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/ftapi\.10jqka\.com\.cn\/futgwapi\/api\/om\/v\d\/ad\/common\/transfer url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/ad\.mcloud\.139\.com\/advertapi url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/smsrebuild1\.mail\.10086\.cn\/together\/s url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/api\.369cx\.cn\/v\d\/Splash\/GetSplashAd url script-response-body https://raw.githubusercontent.com/ddgksf20
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/app\.58\.com\/api\/home\/(advertising|appadv) url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,4}(:\d+)?\/api\/v\d\/movie\/index_recommend url script-response-body http
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,4}(:\d+)?\/.*?\/v\d\/(version$|notice\?|top_notice\?|advert\?position=[^2
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/.*5eplay\.com\/.*adv_slot url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/sdk\.1rtb\.net\/sdk\/req_ad url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/www\.123pan\.com\/s\/[0-9a-zA-Z=_/-]+\.html url script-response-body https://raw.githubusercontent.com/ddgks
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/gateway\.36kr\.com\/api\/adx\/ad\/show url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/evs\.500\.com\/esinfo\/loading\/loading url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/open\.78dm\.net\/v\d\/site\/ad\/ url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList url script-analyze-echo-response https://raw.githubusercontent.com/ddgksf2
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/api-new\.app\.acfun\.cn\/rest\/app\/flash\/screen\/ url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/gw.aihuishou.com\/app-portal\/home\/getadvertisement url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/sso.ifanr.com\/jiong\/IOS\/appso\/splash\/ url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv\/ url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.cbu\.app\.homepage\.startup url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/.*(xbwpys|ahhhhfs)\.com\/($|[0-9a-zA-Z_/]+\/$) url script-response-body https://raw.githubusercontent.com/dd
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/.*aastocks\.com\/ad\/ url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/www\.ahzs10000\.com\/palmhall\/client\/base\/newVerson_getStartUp\.action url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads url script-response-body https://raw.githubusercontent.c
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/tiebac\.baidu\.com\/c\/f\/ad\/getFeedAd url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/res\.pizzahut\.com\.cn\/CRM\/phad\/apphome\/apphome url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/apps\.api\.ke\.com\/config\/config\/(bootpage|getactivityconfig) url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https:\/\/api\.sfacg\.com\/ioscfg url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/pan-api\.bitqiu\.com\/activity\/getPromoteGuide url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/beijing-gateway-customer\.app-prod\.bjev\.com\.cn\/.*\/openScreenAdvert url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^https?:\/\/mobads\.baidu\.com\/cpro\/ui\/mads.php url reject-200
+  [MyAdBlock.conf,test.conf,rewrites\startup-ads.conf] ^http:\/\/.*babytree\.com/(plough\.do|go_search\/api\/mobile_search_new\/get_multi_search_default_keywords) url reject-2
+  ... 共719条, 仅显示前40条
+
+--- MyAdBlock↔test: 0 条 ---
+
+--- filters内部: 2 条 ---
+  [filters\global-proxy.list,filters\streaming.list] [UNCLASSIFIED] DOMAIN-SUFFIX,naver.com
+  [filters\global-proxy.list,filters\streaming.list] DOMAIN,s3-ap-southeast-1.amazonaws.com
+
+--- 其他: 71 条 ---
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] server_check_url = http://www.gstatic.com/generate_204
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] server_check_timeout = 3000
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] profile_img_url = https://github.githubassets.com/images/modules/site/integrators/google.png
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] geo_location_checker = disabled
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] excluded_routes = 239.255.255.250/32, 24.105.30.129/32, 185.60.112.157/32, 185.60.112.158/32, 182.162.132
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] udp_drop_list = 443, STUN, QUIC
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] dns_exclusion_list = *.10099.com.cn, *.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.me, *.p
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-chec
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] event-interaction https://ddgksf2013.top/scripts/server-info-pure.js, tag=节点纯净度详情, img-url=checkmark.shie
+  [MyProfile.conf,MyProfile.conf] https://ddgksf2013.top/rewrite/BiliBiliAdsLite.conf, tag=哔哩广告净化Lite@ddgksf2013, img-url=https://github.com/Koolson/Qure/
+  [MyProfile.conf,MyProfile.conf] https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.conf, tag=Spotify音乐VIP@app2smile, img-url=https:
+  [MyProfile.conf,MyProfile.conf] https://ddgksf2013.top/rewrite/StartUpAds.conf, tag=墨鱼去开屏2.0@ddgksf2013, img-url=https://github.com/Koolson/Qure/raw/mas
+  [MyProfile.conf,MyProfile.conf] https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/CaiYunAds.conf, tag=彩云天气净化@ddgksf2013, img-url=https://github.c
+  [MyProfile.conf,MyProfile.conf] https://ddgksf2013.top/scripts/zhihu.ads.js, tag=知乎净化助手@ddgksf2013, img-url=https://github.com/ddgksf2013/Icon/raw/maste
+  [MyProfile.conf,MyProfile.conf] https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/YoutubeAds.conf, tag=油管去广告@Maasea, img-url=https://github.com/K
+  [MyProfile.conf,MyProfile.conf] https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/WeiboAds.conf, tag=微博去广告@ddgksf2013, img-url=https://github.com
+  [MyProfile.conf,MyProfile.conf] https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/AmapAds.conf, tag=高德地图净化[需卸载重装]@ddgksf2013, img-url=https://git
+  [MyProfile.conf,MyProfile.conf] https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/NeteaseAds.conf, tag=网易云净化@ddgksf2013, img-url=https://github.c
+  [MyProfile.conf,MyProfile.conf] https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/GoofishAds.conf, tag=闲鱼净化[需卸载重装]@ddgksf2013, img-url=https://gi
+  [MyProfile.conf,MyProfile.conf] https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/QiShuiMusicAds.conf, tag=汽水音乐净化[需卸载重装]@dd
+  [MyProfile.conf,MyProfile.conf] https://github.com/ddgksf2013/Rewrite/raw/master/Html/Q-Search.conf, tag=Safari超级搜索@ddgksf2013, img-url=https://github.c
+  [MyProfile.conf,MyProfile.conf] https://github.com/ddgksf2013/Rewrite/raw/master/Html/Douban.conf, tag=豆瓣网页观影快捷跳转@ddgksf2013, img-url=https://github.com
+  [MyProfile.conf,MyProfile.conf] https://github.com/ddgksf2013/Rewrite/raw/master/Html/General.conf, tag=Google重定向@DivineEngine, img-url=https://github.c
+  [MyProfile.conf,MyProfile.conf] https://ddgksf2013.top/rewrite/XiaoHongShuAds.conf, tag=小红书净化+去水印@ddgksf2013, img-url=https://github.com/ddgksf2013/Icon
+  [MyProfile.conf,MyProfile.conf] https://ddgksf2013.top/scripts/bdpan.ads.js, tag=百度网盘净化@ddgksf2013, img-url=https://github.com/ddgksf2013/Icon/raw/maste
+  [MyProfile.conf,MyProfile.conf] https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/UnblockURLinWeChat.conf, tag=微信解锁被屏蔽的URL@zZPiglet, 
+  [MyProfile.conf,MyProfile.conf] https://ddgksf2013.top/scripts/bdpan.unlock.js, tag=百度网盘倍速@ddgksf2013, img-url=https://github.com/ddgksf2013/Icon/raw/ma
+  [MyProfile.conf,MyProfile.conf] https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=BOXJS@chavyleung, 
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] no-ipv6
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] no-system
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] server = 223.5.5.5
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] server = 119.29.29.29
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] server = 114.114.114.114
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] server = /*.icloud.com/119.29.29.29
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] server = /*.icloud.com.cn/119.29.29.29
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] server = /*.tencent.com/119.29.29.29
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] server = /*.weixin.com/119.29.29.29
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] static = 苹果服务, direct, 香港节点, 台湾节点, 美国节点, 日本节点, 狮城节点, proxy, img-url=https://raw.githubusercontent.com/Koo
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] static = 全球加速, 自动选择, direct, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, proxy, img-url=https://raw.githubusercontent.c
+  [MyProfile.conf,MyProfile.conf] [UNCLASSIFIED] static = 哔哩哔哩, direct, 香港节点, 台湾节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/
+  ... 共71条, 仅显示前40条

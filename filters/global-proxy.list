@@ -498,7 +498,6 @@ DOMAIN-SUFFIX,yandex.ru
 DOMAIN,disk.yandex.com
 # > Z-Library
 DOMAIN-SUFFIX,articles.sk
-DOMAIN-SUFFIX,articles.sk
 DOMAIN-SUFFIX,go-to-library.sk
 DOMAIN-SUFFIX,library-access.sk
 DOMAIN-SUFFIX,singlelogin.rs
