@@ -149,6 +149,7 @@ footer a{color:var(--accent);text-decoration:none}
 <script>
 // ===== 数据：rewrite_remote / filter_remote =====
 const RAW = "https://raw.githubusercontent.com/id002/qx/master/";
+const DIR = {rewrite:"rewrites/", filter:"filters/"};
 const OPEN = [
   {name:"墨鱼去开屏全量", desc:"500+ 应用开屏广告拦截（StartUpAds V2）", file:"startup-ads.conf", tag:"墨鱼去开屏V2全量"},
 ];
@@ -201,10 +202,11 @@ const FIL = [
 function esc(s){return s.replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));}
 function addBtn(item,type){
   const key = type==="filter" ? "filter_remote" : "rewrite_remote";
-  const line = RAW+item.file+", tag="+item.tag+(item.force?(", force-policy="+item.force):"")+", opt-parser=false, enabled=true";
+  const dir = DIR[type];
+  const line = RAW+dir+item.file+", tag="+item.tag+(item.force?(", force-policy="+item.force):"")+", opt-parser=false, enabled=true";
   const json = JSON.stringify({[key]:[line]});
   const href = "quantumult-x:///add-resource?remote-resource="+encodeURIComponent(json);
-  const rawHref = RAW+item.file;
+  const rawHref = RAW+dir+item.file;
   return '<div class="btns">'+
     '<button class="btn btn-primary" data-href="'+href+'" aria-label="添加到 QX：'+esc(item.name)+'">'+
       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>添加到 QX</button>'+
