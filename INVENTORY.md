@@ -11,9 +11,9 @@
 | 提交历史 | 4 个提交（init → 英文短路径+校验工具 → HTML 清理 → 重复清理） |
 | 提交身份 | `id002 <95127491+id002@users.noreply.github.com>`（已匿名化） |
 | 当前 HEAD | `2c80330`（合并汽水音乐后待推送） |
-| 主要资产 | 重写 853 条 ／ 分流 210,134 条 ／ 脚本 10 个 ／ 配置 3 个 |
+| 主要资产 | 重写 857 条 ／ 分流 210,134 条 ／ 脚本 10 个 ／ 配置 3 个 |
 
-## 二、重写规则 rewrites/（27 个文件，共 853 条有效行）
+## 二、重写规则 rewrites/（27 个文件，共 857 条有效行）
 
 > 口径：有效规则行 = `^` 开头且非禁用注释（`#^` / `;`）的行。2026-09-27 更新。
 
@@ -30,6 +30,7 @@
 | amap.conf | 18 | 高德地图净化（需卸载重装） |
 | keep.conf | 17 | Keep 去广告 |
 | qi-shui-music.conf | 16 | 汽水音乐净化（穿山甲SDK+luna接口整合） |
+| aisi.conf | 4 | 爱思助手去广告（主界面+开屏接口+广告图） |
 | goofish.conf | 14 | 闲鱼净化（需卸载重装） |
 | smzdm.conf | 13 | 什么值得买净化 |
 | caiyun.conf | 12 | 彩云天气净化 |
@@ -41,12 +42,11 @@
 | xiaoyuzhou.conf | 5 | 小宇宙 FM 去广告 |
 | applet.conf | 5 | 微信小程序去除广告 |
 | duolingo.conf | 5 | 多邻国去广告（学习后视频/插屏） |
-| da-shi-xiong.conf | 3 | 大师兄影视净化 |
+| da-shi-xiong.conf | 4 | 大师兄影视净化+影视公告去弹窗 |
 | reddit.conf | 1 | Reddit 增强去广告 |
 | wechat-unblock.conf | 1 | 微信解锁被屏蔽 URL |
 | google-redirect.conf | 1 | Google 搜索重定向 |
 | douban.conf | 1 | 豆瓣移动网页去广告+快捷观影 |
-| fake-ios.conf | 1 | 影视 App 公告去弹窗（纯 HTTP，免 MITM） |
 
 ## 三、分流规则 filters/（12 个文件，共 210,134 条有效行）
 

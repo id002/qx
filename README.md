@@ -31,9 +31,9 @@ QuantumultX/
 | 文件 | 说明 |
 |------|------|
 | `rewrites/startup-ads.conf` | 墨鱼去开屏 2.0（全量开屏广告） |
-| `rewrites/da-shi-xiong.conf` | 大师兄影视去广告（本地验证版） |
-| `rewrites/qi-shui-music.conf` | 汽水音乐开屏拦截（穿山甲SDK精确版） |
-| `rewrites/fake-ios.conf` | 影视App公告弹窗去除（HTTP明文） |
+| `rewrites/da-shi-xiong.conf` | 大师兄影视净化+影视公告去弹窗（整合版） |
+| `rewrites/qi-shui-music.conf` | 汽水音乐净化（穿山甲SDK+luna接口整合） |
+| `rewrites/aisi.conf` | 爱思助手去广告（主界面+开屏接口+广告图） |
 | `rewrites/duolingo.conf` | 多邻国PLUS插屏/开屏拦截 |
 | `rewrites/applet.conf` | 微信小程序去广告 |
 | `rewrites/bilibili.conf` / `bilibili-lite.conf` | B站净化（完整/Lite） |
