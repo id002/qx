@@ -86,6 +86,7 @@ main{max-width:680px;margin:0 auto;padding:0 16px}
 .card.script .btn-primary:hover{border-color:var(--warn);color:var(--warn)}
 
 .empty{padding:30px 0;text-align:center;color:var(--dim2);font-size:13px}
+.hide{display:none}
 
 footer{
   margin-top:34px;padding:18px 16px calc(18px + env(safe-area-inset-bottom));
@@ -219,12 +220,16 @@ function card(item,type){
   '</div>';
 }
 function render(){
-  const open = OPEN.map(i=>card(i,"rewrite")).join("");
-  const app = APP.map(i=>card(i,"rewrite")).join("");
-  const web = WEB.map(i=>card(i,"rewrite")).join("");
-  const fil = FIL.map(i=>card(i,"filter")).join("");
-  gOpen.innerHTML=open; gApp.innerHTML=app; gWeb.innerHTML=web; gFil.innerHTML=fil;
-  cOpen.textContent=OPEN.length; cApp.textContent=APP.length; cWeb.textContent=WEB.length; cFil.textContent=FIL.length;
+  const gOpen=document.getElementById("g-open"), gApp=document.getElementById("g-app"),
+        gWeb=document.getElementById("g-web"), gFil=document.getElementById("g-fil");
+  const cOpen=document.getElementById("c-open"), cApp=document.getElementById("c-app"),
+        cWeb=document.getElementById("c-web"), cFil=document.getElementById("c-fil");
+  gOpen.innerHTML=OPEN.map(i=>card(i,"rewrite")).join("");
+  gApp.innerHTML=APP.map(i=>card(i,"rewrite")).join("");
+  gWeb.innerHTML=WEB.map(i=>card(i,"rewrite")).join("");
+  gFil.innerHTML=FIL.map(i=>card(i,"filter")).join("");
+  cOpen.textContent=OPEN.length; cApp.textContent=APP.length;
+  cWeb.textContent=WEB.length; cFil.textContent=FIL.length;
   bind();
 }
 function bind(){
