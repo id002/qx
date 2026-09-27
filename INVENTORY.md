@@ -10,41 +10,43 @@
 | raw 前缀 | `https://raw.githubusercontent.com/id002/qx/master/` |
 | 提交历史 | 4 个提交（init → 英文短路径+校验工具 → HTML 清理 → 重复清理） |
 | 提交身份 | `id002 <95127491+id002@users.noreply.github.com>`（已匿名化） |
-| 当前 HEAD | `2c80330` |
-| 主要资产 | 重写 906 条 ／ 分流 210,134 条 ／ 脚本 10 个 ／ 配置 3 个 |
+| 当前 HEAD | `2c80330`（合并汽水音乐后待推送） |
+| 主要资产 | 重写 853 条 ／ 分流 210,134 条 ／ 脚本 10 个 ／ 配置 3 个 |
 
-## 二、重写规则 rewrites/（27 个文件，共 906 条有效行）
+## 二、重写规则 rewrites/（27 个文件，共 853 条有效行）
+
+> 口径：有效规则行 = `^` 开头且非禁用注释（`#^` / `;`）的行。2026-09-27 更新。
 
 ### App 净化（按 App 单独同步）
 | 文件 | 条数 | 用途 |
 |---|---|---|
-| startup-ads.conf | 503 | 墨鱼去开屏 V2.0 全量（大表） |
-| q-search.conf | 84 | Safari 快捷搜索引擎命令 |
-| weibo.conf | 46 | 微博去广告 |
-| netease.conf | 30 | 网易云音乐净化 |
-| bilibili.conf | 28 | B站完整净化（信息流+开屏+会员购） |
-| xiaohongshu.conf | 26 | 小红书净化+去水印 |
-| ximalaya.conf | 25 | 喜马拉雅净化 |
-| amap.conf | 20 | 高德地图净化（需卸载重装） |
-| keep.conf | 18 | Keep 去广告 |
-| goofish.conf | 16 | 闲鱼净化（需卸载重装） |
-| smzdm.conf | 14 | 什么值得买净化 |
-| caiyun.conf | 13 | 彩云天气净化 |
-| china-unicom.conf | 12 | 中国联通净化 |
-| bilibili-lite.conf | 9 | B站净化精简版（与 bilibili.conf 二选一） |
-| tieba.conf | 9 | 百度贴吧去广告 |
-| netease-mail.conf | 8 | 网易邮箱大师净化 |
-| qi-shui-music.conf | 7 | 汽水音乐净化 |
-| youtube.conf | 7 | YouTube 去广告 |
-| xiaoyuzhou.conf | 6 | 小宇宙 FM 去广告 |
-| duolingo.conf | 6 | 多邻国去广告（学习后视频/插屏） |
-| applet.conf | 6 | 微信小程序去除广告 |
-| da-shi-xiong.conf | 4 | 大师兄影视净化 |
-| douban.conf | 2 | 豆瓣移动网页去广告+快捷观影 |
-| reddit.conf | 2 | Reddit 增强去广告 |
-| google-redirect.conf | 2 | Google 搜索重定向 |
+| startup-ads.conf | 473 | 墨鱼去开屏 V2.0 全量（大表） |
+| q-search.conf | 83 | Safari 快捷搜索引擎命令 |
+| weibo.conf | 42 | 微博去广告 |
+| netease.conf | 29 | 网易云音乐净化 |
+| bilibili.conf | 27 | B站完整净化（信息流+开屏+会员购） |
+| xiaohongshu.conf | 25 | 小红书净化+去水印 |
+| ximalaya.conf | 24 | 喜马拉雅净化 |
+| amap.conf | 18 | 高德地图净化（需卸载重装） |
+| keep.conf | 17 | Keep 去广告 |
+| qi-shui-music.conf | 16 | 汽水音乐净化（穿山甲SDK+luna接口整合） |
+| goofish.conf | 14 | 闲鱼净化（需卸载重装） |
+| smzdm.conf | 13 | 什么值得买净化 |
+| caiyun.conf | 12 | 彩云天气净化 |
+| china-unicom.conf | 10 | 中国联通净化 |
+| bilibili-lite.conf | 8 | B站净化精简版（与 bilibili.conf 二选一） |
+| tieba.conf | 7 | 百度贴吧去广告 |
+| netease-mail.conf | 7 | 网易邮箱大师净化 |
+| youtube.conf | 5 | YouTube 去广告 |
+| xiaoyuzhou.conf | 5 | 小宇宙 FM 去广告 |
+| applet.conf | 5 | 微信小程序去除广告 |
+| duolingo.conf | 5 | 多邻国去广告（学习后视频/插屏） |
+| da-shi-xiong.conf | 3 | 大师兄影视净化 |
+| reddit.conf | 1 | Reddit 增强去广告 |
+| wechat-unblock.conf | 1 | 微信解锁被屏蔽 URL |
+| google-redirect.conf | 1 | Google 搜索重定向 |
+| douban.conf | 1 | 豆瓣移动网页去广告+快捷观影 |
 | fake-ios.conf | 1 | 影视 App 公告去弹窗（纯 HTTP，免 MITM） |
-| wechat-unblock.conf | 2 | 微信解锁被屏蔽 URL |
 
 ## 三、分流规则 filters/（12 个文件，共 210,134 条有效行）
 
