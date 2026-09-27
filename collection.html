@@ -200,7 +200,7 @@ const FIL = [
 function esc(s){return s.replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));}
 function addBtn(item,type){
   const key = type==="filter" ? "filter_remote" : "rewrite_remote";
-  const line = RAW+item.file+", tag="+item.tag+(item.force?(", force-policy="+item.force):"")+", update-interval=86400, opt-parser=false, enabled=true";
+  const line = RAW+item.file+", tag="+item.tag+(item.force?(", force-policy="+item.force):"")+", opt-parser=false, enabled=true";
   const json = JSON.stringify({[key]:[line]});
   const href = "quantumult-x:///add-resource?remote-resource="+encodeURIComponent(json);
   const rawHref = RAW+item.file;
