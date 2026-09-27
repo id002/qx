@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0b1220">
+<title>QX 规则收藏夹 · id002/qx</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230b1220'/%3E%3Cpath d='M20 44 L44 20 M20 32 Q28 22 40 26 M32 44 Q42 36 44 24' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round' fill='none'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#0b1220; --bg2:#111a2e; --card:#15213a; --card2:#1a2745;
+  --line:#233455; --text:#e8eefc; --dim:#8ea3c4; --dim2:#64748f;
+  --accent:#22d3ee; --accent2:#0ea5e9; --ok:#34d399; --warn:#fbbf24;
+  --radius:14px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei",sans-serif;
+  background:var(--bg); color:var(--text); line-height:1.5;
+  min-height:100vh; padding-bottom:calc(48px + env(safe-area-inset-bottom));
+  background-image:radial-gradient(1000px 500px at 85% -10%,rgba(14,165,233,.14),transparent 60%),
+                   radial-gradient(700px 400px at -10% 20%,rgba(34,211,238,.08),transparent 60%);
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+header{padding:34px 20px 18px;text-align:center;position:relative}
+.logo{display:inline-flex;align-items:center;gap:10px;margin-bottom:10px}
+.logo svg{width:34px;height:34px}
+h1{font-size:22px;font-weight:700;letter-spacing:.5px}
+.sub{color:var(--dim);font-size:13px;margin-top:6px}
+.sub b{color:var(--accent);font-weight:600}
+.hero-note{
+  margin:14px auto 0;max-width:560px;padding:10px 14px;border-radius:10px;
+  background:rgba(34,211,238,.08);border:1px solid rgba(34,211,238,.25);
+  font-size:12.5px;color:var(--dim);text-align:left;
+}
+.hero-note b{color:var(--accent)}
+
+/* 搜索栏 */
+.searchbar{position:sticky;top:0;z-index:20;padding:10px 16px;background:linear-gradient(var(--bg) 82%,transparent)}
+.searchbox{
+  display:flex;align-items:center;gap:8px;max-width:680px;margin:0 auto;
+  background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;
+}
+.searchbox svg{flex:none;opacity:.7}
+.searchbox input{
+  flex:1;background:none;border:none;outline:none;color:var(--text);font-size:14px;
+  font-family:inherit;
+}
+.searchbox input::placeholder{color:var(--dim2)}
+.searchbox:focus-within{border-color:var(--accent);box-shadow:0 0 0 3px rgba(34,211,238,.12)}
+
+main{max-width:680px;margin:0 auto;padding:0 16px}
+.cat{display:flex;align-items:center;gap:10px;margin:26px 0 12px}
+.cat:first-of-type{margin-top:8px}
+.cat .t{font-size:15px;font-weight:700}
+.cat .n{font-size:11px;color:var(--dim2);background:var(--card);border:1px solid var(--line);padding:2px 8px;border-radius:20px}
+.cat .line{flex:1;height:1px;background:var(--line)}
+
+.grid{display:grid;grid-template-columns:1fr;gap:10px}
+@media(min-width:640px){.grid{grid-template-columns:1fr 1fr}}
+.card{
+  display:flex;align-items:center;gap:12px;padding:12px 14px;
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  transition:transform .12s ease,border-color .12s ease,background .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);background:var(--card2)}
+.card.hide{display:none}
+.card .info{flex:1;min-width:0}
+.card .nm{font-size:14px;font-weight:600;display:flex;align-items:center;gap:6px}
+.card .nm .dot{width:6px;height:6px;border-radius:50%;background:var(--accent);flex:none}
+.card .ds{font-size:12px;color:var(--dim);margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.card .btns{display:flex;flex-direction:column;gap:6px;flex:none}
+.btn{
+  border:none;border-radius:9px;padding:7px 12px;font-size:12.5px;font-weight:600;
+  cursor:pointer;font-family:inherit;display:flex;align-items:center;justify-content:center;gap:5px;
+  transition:filter .12s ease,background .12s ease;
+}
+.btn:active{transform:scale(.97)}
+.btn-primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#04121d}
+.btn-primary:hover{filter:brightness(1.08)}
+.btn-ghost{background:var(--card2);color:var(--dim);border:1px solid var(--line)}
+.btn-ghost:hover{color:var(--text);border-color:var(--dim2)}
+.btn svg{width:13px;height:13px}
+.card.script .btn-primary{background:var(--card2);color:var(--dim);border:1px dashed var(--line)}
+.card.script .btn-primary:hover{border-color:var(--warn);color:var(--warn)}
+
+.empty{padding:30px 0;text-align:center;color:var(--dim2);font-size:13px}
+
+footer{
+  margin-top:34px;padding:18px 16px calc(18px + env(safe-area-inset-bottom));
+  text-align:center;color:var(--dim2);font-size:12px;line-height:1.9;
+}
+footer a{color:var(--accent);text-decoration:none}
+
+/* toast */
+#toast{
+  position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom));transform:translateX(-50%) translateY(20px);
+  background:var(--card2);border:1px solid var(--line);color:var(--text);
+  padding:10px 18px;border-radius:12px;font-size:13px;opacity:0;pointer-events:none;
+  transition:opacity .2s ease,transform .2s ease;z-index:99;max-width:86vw;text-align:center;
+}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="none" stroke="var(--accent)" stroke-width="3"/><path d="M20 44 L44 20 M20 32 Q28 22 40 26 M32 44 Q42 36 44 24" stroke="var(--accent)" stroke-width="5" stroke-linecap="round" fill="none"/></svg>
+    <h1>QX 规则收藏夹</h1>
+  </div>
+  <div class="sub">点击「添加到 QX」自动填入并跳转 App · 来源 <b>github.com/id002/qx</b></div>
+  <div class="hero-note">跳转需 Quantumult X <b>1.0.29 (build 670)</b> 及以上。添加后在下拉刷新配置里启用；点击「复制」可拿到 raw 链接手动添加。</div>
+</header>
+
+<div class="searchbar">
+  <div class="searchbox">
+    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    <input id="search" type="search" placeholder="搜索规则名称 / 用途，如：汽水、爱思、B站…" autocomplete="off">
+  </div>
+</div>
+
+<main>
+  <div class="cat"><span class="t">开屏 / 通用</span><span class="n" id="c-open">0</span><span class="line"></span></div>
+  <div class="grid" id="g-open"></div>
+
+  <div class="cat"><span class="t">App 净化</span><span class="n" id="c-app">0</span><span class="line"></span></div>
+  <div class="grid" id="g-app"></div>
+
+  <div class="cat"><span class="t">网页增强</span><span class="n" id="c-web">0</span><span class="line"></span></div>
+  <div class="grid" id="g-web"></div>
+
+  <div class="cat"><span class="t">分流规则</span><span class="n" id="c-fil">0</span><span class="line"></span></div>
+  <div class="grid" id="g-fil"></div>
+
+  <div class="empty hide" id="empty">没有匹配的规则，换个关键词试试</div>
+</main>
+
+<footer>
+  规则源：<a href="https://github.com/id002/qx" target="_blank" rel="noopener">github.com/id002/qx</a><br>
+  规则格式：Quantumult X 重写 / 分流 · 部分规则需开启 MITM 并信任证书<br>
+  页面向规则作者致敬：@ddgksf2013、@toechon 等
+</footer>
+
+<div id="toast"></div>
+
+<script>
+// ===== 数据：rewrite_remote / filter_remote =====
+const RAW = "https://raw.githubusercontent.com/id002/qx/master/";
+const OPEN = [
+  {name:"墨鱼去开屏全量", desc:"500+ 应用开屏广告拦截（StartUpAds V2）", file:"startup-ads.conf", tag:"墨鱼去开屏V2全量"},
+];
+const APP = [
+  {name:"汽水音乐净化", desc:"开屏(穿山甲SDK) + 应用内广告接口", file:"qi-shui-music.conf", tag:"汽水音乐净化"},
+  {name:"爱思助手去广告", desc:"主界面广告位 + 开屏接口 + 广告图", file:"aisi.conf", tag:"爱思助手去广告"},
+  {name:"大师兄+影视公告", desc:"大师兄影视去广告 + 影视公告弹窗", file:"da-shi-xiong.conf", tag:"大师兄+影视公告"},
+  {name:"多邻国净化", desc:"学习后插屏/开屏/PLUS推广拦截", file:"duolingo.conf", tag:"多邻国净化"},
+  {name:"微信小程序去广告", desc:"小程序开屏/弹窗广告（applet）", file:"applet.conf", tag:"微信小程序去广告"},
+  {name:"微信解锁屏蔽URL", desc:"解除微信内被屏蔽的链接", file:"wechat-unblock.conf", tag:"微信解锁屏蔽URL"},
+  {name:"B站完整净化", desc:"信息流 + 开屏 + 会员购隐藏", file:"bilibili.conf", tag:"B站完整净化"},
+  {name:"B站净化Lite", desc:"精简版，与完整版二选一", file:"bilibili-lite.conf", tag:"B站净化Lite"},
+  {name:"YouTube 去广告", desc:"视频前/中/后广告拦截", file:"youtube.conf", tag:"YouTube去广告"},
+  {name:"网易云净化", desc:"开屏/信息流/歌单广告清理", file:"netease.conf", tag:"网易云净化"},
+  {name:"喜马拉雅净化", desc:"开屏 + 信息流 + 弹窗", file:"ximalaya.conf", tag:"喜马拉雅净化"},
+  {name:"小宇宙去广告", desc:"播客 App 广告清理", file:"xiaoyuzhou.conf", tag:"小宇宙去广告"},
+  {name:"微博去广告", desc:"信息流/开屏/热搜推广清理", file:"weibo.conf", tag:"微博去广告"},
+  {name:"小红书净化去水印", desc:"广告 + 图片水印去除", file:"xiaohongshu.conf", tag:"小红书净化去水印"},
+  {name:"百度贴吧去广告", desc:"帖子列表广告清理", file:"tieba.conf", tag:"百度贴吧去广告"},
+  {name:"Reddit 增强", desc:"信息流广告拦截", file:"reddit.conf", tag:"Reddit增强"},
+  {name:"高德地图净化", desc:"开屏/弹窗（建议卸载重装）", file:"amap.conf", tag:"高德地图净化"},
+  {name:"闲鱼净化", desc:"开屏/信息流（建议卸载重装）", file:"goofish.conf", tag:"闲鱼净化"},
+  {name:"Keep 去广告", desc:"开屏 + 训练页广告", file:"keep.conf", tag:"Keep去广告"},
+  {name:"彩云天气净化", desc:"开屏/会员推广清理", file:"caiyun.conf", tag:"彩云天气净化"},
+  {name:"什么值得买", desc:"信息流/开屏广告清理", file:"smzdm.conf", tag:"什么值得买"},
+  {name:"中国联通净化", desc:"联通 App 广告清理", file:"china-unicom.conf", tag:"中国联通净化"},
+  {name:"网易邮箱大师", desc:"邮件列表广告清理", file:"netease-mail.conf", tag:"网易邮箱大师"},
+];
+const WEB = [
+  {name:"豆瓣网页去广告", desc:"移动网页去广告 + 快捷观影", file:"douban.conf", tag:"豆瓣网页去广告"},
+  {name:"Safari 超级搜索", desc:"快捷搜索引擎命令（84 条）", file:"q-search.conf", tag:"Safari超级搜索"},
+  {name:"Google 重定向", desc:"google.cn 跳转国际版", file:"google-redirect.conf", tag:"Google重定向"},
+];
+const FIL = [
+  {name:"广告域名大表", desc:"202K 广告域名 reject（AdRules）", file:"adrules.conf", tag:"广告域名大表", force:"REJECT"},
+  {name:"中国大陆直连", desc:"国内 IP-ASN 直连策略", file:"china-asn.list", tag:"中国大陆直连"},
+  {name:"Apple 服务分流", desc:"Apple 服务直连/代理", file:"apple.list", tag:"Apple服务分流"},
+  {name:"全球代理域名", desc:"常用代理域名集合", file:"global-proxy.list", tag:"全球代理域名"},
+  {name:"流媒体分流", desc:"Netflix / Disney+ 等", file:"streaming.list", tag:"流媒体分流"},
+  {name:"AI 服务分流", desc:"OpenAI / Claude 等走代理", file:"ai.yaml", tag:"AI服务分流"},
+  {name:"微信分流", desc:"WeChat 消息直连", file:"wechat.list", tag:"微信分流"},
+  {name:"防误杀白名单", desc:"直连豁免（unbreak）", file:"unbreak.list", tag:"防误杀白名单"},
+  {name:"GitHub 分流", desc:"GitHub 走代理", file:"github.list", tag:"GitHub分流"},
+  {name:"Spotify 分流", desc:"Spotify 专用线路", file:"spotify.list", tag:"Spotify分流"},
+  {name:"流媒体(新加坡)", desc:"新加坡区流媒体线路", file:"streaming-se.list", tag:"流媒体新加坡"},
+  {name:"Google Voice", desc:"GV 语音分流", file:"google-voice.list", tag:"GoogleVoice分流"},
+];
+
+// ===== 渲染 =====
+function esc(s){return s.replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));}
+function addBtn(item,type){
+  const key = type==="filter" ? "filter_remote" : "rewrite_remote";
+  const line = RAW+item.file+", tag="+item.tag+(item.force?(", force-policy="+item.force):"")+", update-interval=86400, opt-parser=false, enabled=true";
+  const json = JSON.stringify({[key]:[line]});
+  const href = "quantumult-x:///add-resource?remote-resource="+encodeURIComponent(json);
+  const rawHref = RAW+item.file;
+  return '<div class="btns">'+
+    '<button class="btn btn-primary" data-href="'+href+'" aria-label="添加到 QX：'+esc(item.name)+'">'+
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>添加到 QX</button>'+
+    '<button class="btn btn-ghost" data-copy="'+rawHref+'" aria-label="复制链接：'+esc(item.name)+'">'+
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>复制</button>'+
+  '</div>';
+}
+function card(item,type){
+  const extra = type==="filter" ? ' class="card"' : ' class="card"';
+  return '<div'+extra+' data-name="'+esc(item.name+item.desc)+'">'+
+    '<div class="info"><div class="nm"><span class="dot"></span>'+esc(item.name)+'</div><div class="ds">'+esc(item.desc)+'</div></div>'+
+    addBtn(item,type)+
+  '</div>';
+}
+function render(){
+  const open = OPEN.map(i=>card(i,"rewrite")).join("");
+  const app = APP.map(i=>card(i,"rewrite")).join("");
+  const web = WEB.map(i=>card(i,"rewrite")).join("");
+  const fil = FIL.map(i=>card(i,"filter")).join("");
+  gOpen.innerHTML=open; gApp.innerHTML=app; gWeb.innerHTML=web; gFil.innerHTML=fil;
+  cOpen.textContent=OPEN.length; cApp.textContent=APP.length; cWeb.textContent=WEB.length; cFil.textContent=FIL.length;
+  bind();
+}
+function bind(){
+  document.querySelectorAll(".btn-primary").forEach(b=>{
+    b.addEventListener("click",()=>{ location.href=b.dataset.href; });
+  });
+  document.querySelectorAll(".btn-ghost").forEach(b=>{
+    b.addEventListener("click",async()=>{
+      try{ await navigator.clipboard.writeText(b.dataset.copy); toast("已复制 raw 链接"); }
+      catch(e){ toast(b.dataset.copy); }
+    });
+  });
+}
+
+// ===== 搜索 =====
+const search = document.getElementById("search");
+let timer=null;
+search.addEventListener("input",()=>{
+  clearTimeout(timer);
+  timer=setTimeout(()=>{
+    const q=search.value.trim().toLowerCase();
+    let hit=0;
+    document.querySelectorAll(".card").forEach(c=>{
+      const m=!q||c.dataset.name.toLowerCase().includes(q);
+      c.classList.toggle("hide",!m);
+      if(m)hit++;
+    });
+    document.querySelectorAll(".cat").forEach(cat=>{
+      const grid=cat.nextElementSibling;
+      if(grid&&grid.classList.contains("grid")){
+        const visible=[...grid.querySelectorAll(".card")].filter(c=>!c.classList.contains("hide")).length;
+        cat.style.display=visible?"flex":"none";
+      }
+    });
+    empty.classList.toggle("hide",hit>0);
+  },150);
+});
+
+// ===== toast =====
+let toastTimer=null;
+function toast(msg){
+  const t=document.getElementById("toast");
+  t.textContent=msg; t.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer=setTimeout(()=>t.classList.remove("show"),2200);
+}
+
+render();
+</script>
+</body>
+</html>
