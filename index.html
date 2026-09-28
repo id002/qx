@@ -70,6 +70,8 @@ main{max-width:680px;margin:0 auto;padding:0 16px}
 .card .nm{font-size:14px;font-weight:600;display:flex;align-items:center;gap:6px}
 .card .nm .dot{width:6px;height:6px;border-radius:50%;background:var(--accent);flex:none}
 .card .ds{font-size:12px;color:var(--dim);margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.card .ck{font-size:11px;color:var(--dim2);margin-top:2px}
+.card .ck b{color:var(--accent);font-weight:600}
 .card .btns{display:flex;flex-direction:column;gap:6px;flex:none}
 .btn{
   border:none;border-radius:9px;padding:7px 12px;font-size:12.5px;font-weight:600;
@@ -201,6 +203,54 @@ const FIL = [
   {name:"Google Voice", desc:"GV 语音分流", file:"google-voice.list", tag:"GoogleVoice分流"},
 ];
 
+// ===== 点击统计：本地即时 + 云端全局(LeanCloud) =====
+// 填入下方三项(控制台「设置→应用凭证」)后自动启用云端计数；留空则仅本机计数
+const LEAN = {appId:"", appKey:"", server:""};
+let CLOUD_CLICKS = {};   // file -> 云端全局数
+let LOCAL_CLICKS = {};   // file -> 本机累计数
+try{ LOCAL_CLICKS = JSON.parse(localStorage.getItem("qx_clicks")||"{}"); }catch(e){ LOCAL_CLICKS={}; }
+function leanReady(){ return !!(LEAN.appId && LEAN.appKey && LEAN.server); }
+function leanFetch(){
+  if(!leanReady()) return;
+  fetch(LEAN.server+"/1.1/classes/ClickCounter?limit=200",{
+    headers:{"X-LC-Id":LEAN.appId,"X-LC-Key":LEAN.appKey,"Accept":"application/json"}
+  }).then(r=>r.json()).then(d=>{
+    if(d&&d.results) d.results.forEach(o=>{ if(o.file) CLOUD_CLICKS[o.file]=o.count||0; });
+    document.querySelectorAll(".card").forEach(c=>{ const f=c.dataset.file; if(f) c.querySelector(".ck b").textContent = clickOf(f); });
+  }).catch(()=>{});
+}
+function leanBump(file){
+  if(!leanReady()) return;
+  fetch(LEAN.server+"/1.1/classes/ClickCounter?where="+encodeURIComponent(JSON.stringify({file:file}))+"&limit=1",{
+    headers:{"X-LC-Id":LEAN.appId,"X-LC-Key":LEAN.appKey,"Accept":"application/json"}
+  }).then(r=>r.json()).then(d=>{
+    if(d&&d.results&&d.results.length){
+      const o=d.results[0];
+      fetch(LEAN.server+"/1.1/classes/ClickCounter/"+o.objectId,{
+        method:"PUT",
+        headers:{"X-LC-Id":LEAN.appId,"X-LC-Key":LEAN.appKey,"Content-Type":"application/json"},
+        body:JSON.stringify({count:{"__op":"Increment","amount":1}})
+      }).then(r=>r.json()).then(n=>{ if(n&&n.count) CLOUD_CLICKS[file]=n.count; }).catch(()=>{});
+    } else {
+      fetch(LEAN.server+"/1.1/classes/ClickCounter",{
+        method:"POST",
+        headers:{"X-LC-Id":LEAN.appId,"X-LC-Key":LEAN.appKey,"Content-Type":"application/json"},
+        body:JSON.stringify({file:file,count:1})
+      }).catch(()=>{});
+    }
+  }).catch(()=>{});
+}
+function clickOf(file){
+  const cloud = CLOUD_CLICKS[file]||0, local = LOCAL_CLICKS[file]||0;
+  return Math.max(cloud, local);
+}
+function bump(file,cardEl){
+  LOCAL_CLICKS[file]=(LOCAL_CLICKS[file]||0)+1;
+  try{ localStorage.setItem("qx_clicks",JSON.stringify(LOCAL_CLICKS)); }catch(e){}
+  if(cardEl){ const b=cardEl.querySelector(".ck b"); if(b) b.textContent=clickOf(file); }
+  leanBump(file);
+}
+
 // ===== 渲染 =====
 function esc(s){return s.replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));}
 function addBtn(item,type){
@@ -211,16 +261,15 @@ function addBtn(item,type){
   const href = "quantumult-x:///add-resource?remote-resource="+encodeURIComponent(json);
   const rawHref = RAW+dir+item.file;
   return '<div class="btns">'+
-    '<button class="btn btn-primary" data-href="'+href+'" aria-label="添加到 QX：'+esc(item.name)+'">'+
+    '<button class="btn btn-primary" data-file="'+item.file+'" data-href="'+href+'" aria-label="添加到 QX：'+esc(item.name)+'">'+
       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>添加到 QX</button>'+
-    '<button class="btn btn-ghost" data-copy="'+rawHref+'" aria-label="复制链接：'+esc(item.name)+'">'+
+    '<button class="btn btn-ghost" data-file="'+item.file+'" data-copy="'+rawHref+'" aria-label="复制链接：'+esc(item.name)+'">'+
       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>复制</button>'+
   '</div>';
 }
 function card(item,type){
-  const extra = type==="filter" ? ' class="card"' : ' class="card"';
-  return '<div'+extra+' data-name="'+esc(item.name+item.desc)+'">'+
-    '<div class="info"><div class="nm"><span class="dot"></span>'+esc(item.name)+'</div><div class="ds">'+esc(item.desc)+'</div></div>'+
+  return '<div class="card" data-file="'+item.file+'" data-name="'+esc(item.name+item.desc)+'">'+
+    '<div class="info"><div class="nm"><span class="dot"></span>'+esc(item.name)+'</div><div class="ds">'+esc(item.desc)+'</div><div class="ck">已点击 <b>'+clickOf(item.file)+'</b> 次</div></div>'+
     addBtn(item,type)+
   '</div>';
 }
@@ -239,10 +288,11 @@ function render(){
 }
 function bind(){
   document.querySelectorAll(".btn-primary").forEach(b=>{
-    b.addEventListener("click",()=>{ location.href=b.dataset.href; });
+    b.addEventListener("click",()=>{ bump(b.dataset.file,b.closest(".card")); location.href=b.dataset.href; });
   });
   document.querySelectorAll(".btn-ghost").forEach(b=>{
     b.addEventListener("click",async()=>{
+      bump(b.dataset.file,b.closest(".card"));
       try{ await navigator.clipboard.writeText(b.dataset.copy); toast("已复制 raw 链接"); }
       catch(e){ toast(b.dataset.copy); }
     });
@@ -283,6 +333,7 @@ function toast(msg){
 }
 
 render();
+leanFetch();
 
 // ===== 运行时长 =====
 const START = new Date("2026-09-27T00:00:00+08:00"); // 收藏夹创建日，可按需修改
