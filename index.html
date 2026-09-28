@@ -203,41 +203,32 @@ const FIL = [
   {name:"Google Voice", desc:"GV 语音分流", file:"google-voice.list", tag:"GoogleVoice分流"},
 ];
 
-// ===== 点击统计：本地即时 + 云端全局(LeanCloud) =====
-// 填入下方三项(控制台「设置→应用凭证」)后自动启用云端计数；留空则仅本机计数
-const LEAN = {appId:"", appKey:"", server:""};
+// ===== 点击统计：本地即时 + 云端全局(countapi.mileshilliard.com, 免费无注册) =====
+// API: /api/v1/hit/{key} 自增返回新值；/api/v1/get/{key} 只读(不存在返回404,静默忽略)
+const CNT_NS = "id002-qx";
 let CLOUD_CLICKS = {};   // file -> 云端全局数
 let LOCAL_CLICKS = {};   // file -> 本机累计数
 try{ LOCAL_CLICKS = JSON.parse(localStorage.getItem("qx_clicks")||"{}"); }catch(e){ LOCAL_CLICKS={}; }
-function leanReady(){ return !!(LEAN.appId && LEAN.appKey && LEAN.server); }
-function leanFetch(){
-  if(!leanReady()) return;
-  fetch(LEAN.server+"/1.1/classes/ClickCounter?limit=200",{
-    headers:{"X-LC-Id":LEAN.appId,"X-LC-Key":LEAN.appKey,"Accept":"application/json"}
-  }).then(r=>r.json()).then(d=>{
-    if(d&&d.results) d.results.forEach(o=>{ if(o.file) CLOUD_CLICKS[o.file]=o.count||0; });
-    document.querySelectorAll(".card").forEach(c=>{ const f=c.dataset.file; if(f) c.querySelector(".ck b").textContent = clickOf(f); });
-  }).catch(()=>{});
+function cntUrl(file, readOnly){
+  return "https://countapi.mileshilliard.com/api/v1/"+(readOnly?"get/":"hit/")+encodeURIComponent(CNT_NS+"-"+file);
 }
-function leanBump(file){
-  if(!leanReady()) return;
-  fetch(LEAN.server+"/1.1/classes/ClickCounter?where="+encodeURIComponent(JSON.stringify({file:file}))+"&limit=1",{
-    headers:{"X-LC-Id":LEAN.appId,"X-LC-Key":LEAN.appKey,"Accept":"application/json"}
-  }).then(r=>r.json()).then(d=>{
-    if(d&&d.results&&d.results.length){
-      const o=d.results[0];
-      fetch(LEAN.server+"/1.1/classes/ClickCounter/"+o.objectId,{
-        method:"PUT",
-        headers:{"X-LC-Id":LEAN.appId,"X-LC-Key":LEAN.appKey,"Content-Type":"application/json"},
-        body:JSON.stringify({count:{"__op":"Increment","amount":1}})
-      }).then(r=>r.json()).then(n=>{ if(n&&n.count) CLOUD_CLICKS[file]=n.count; }).catch(()=>{});
-    } else {
-      fetch(LEAN.server+"/1.1/classes/ClickCounter",{
-        method:"POST",
-        headers:{"X-LC-Id":LEAN.appId,"X-LC-Key":LEAN.appKey,"Content-Type":"application/json"},
-        body:JSON.stringify({file:file,count:1})
-      }).catch(()=>{});
-    }
+function refreshCk(file){
+  document.querySelectorAll(".card").forEach(c=>{
+    if(c.dataset.file===file){ const b=c.querySelector(".ck b"); if(b) b.textContent=clickOf(file); }
+  });
+}
+function cloudFetch(){
+  // 页面加载后并行拉取各规则云端计数(只读)，失败静默
+  document.querySelectorAll(".card").forEach(c=>{
+    const f=c.dataset.file; if(!f) return;
+    fetch(cntUrl(f,true)).then(r=>r.json()).then(d=>{
+      if(d&&typeof d.value==="number"){ CLOUD_CLICKS[f]=d.value; refreshCk(f); }
+    }).catch(()=>{});
+  });
+}
+function cloudBump(file){
+  fetch(cntUrl(file,false)).then(r=>r.json()).then(d=>{
+    if(d&&typeof d.value==="number"){ CLOUD_CLICKS[file]=d.value; refreshCk(file); }
   }).catch(()=>{});
 }
 function clickOf(file){
@@ -248,7 +239,7 @@ function bump(file,cardEl){
   LOCAL_CLICKS[file]=(LOCAL_CLICKS[file]||0)+1;
   try{ localStorage.setItem("qx_clicks",JSON.stringify(LOCAL_CLICKS)); }catch(e){}
   if(cardEl){ const b=cardEl.querySelector(".ck b"); if(b) b.textContent=clickOf(file); }
-  leanBump(file);
+  cloudBump(file);
 }
 
 // ===== 渲染 =====
@@ -333,7 +324,7 @@ function toast(msg){
 }
 
 render();
-leanFetch();
+cloudFetch();
 
 // ===== 运行时长 =====
 const START = new Date("2026-09-27T00:00:00+08:00"); // 收藏夹创建日，可按需修改
