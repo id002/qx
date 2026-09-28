@@ -140,11 +140,14 @@ footer a{color:var(--accent);text-decoration:none}
 
 <footer>
   规则源：<a href="https://github.com/id002/qx" target="_blank" rel="noopener">github.com/id002/qx</a><br>
+  本站已运行 <span id="uptime">计算中…</span> · 累计访问 <span id="busuanzi_value_site_pv">0</span> 次 · 访客 <span id="busuanzi_value_site_uv">0</span> 人<br>
   规则格式：Quantumult X 重写 / 分流 · 部分规则需开启 MITM 并信任证书<br>
   页面向规则作者致敬：@ddgksf2013、@toechon 等
 </footer>
 
 <div id="toast"></div>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 <script>
 // ===== 数据：rewrite_remote / filter_remote =====
@@ -280,6 +283,23 @@ function toast(msg){
 }
 
 render();
+
+// ===== 运行时长 =====
+const START = new Date("2026-09-27T00:00:00+08:00"); // 收藏夹创建日，可按需修改
+function fmtUptime(){
+  const diff = Date.now()-START.getTime();
+  if(diff<0) return "刚刚开始";
+  const s = Math.floor(diff/1000);
+  const y = Math.floor(s/31536000);
+  const d = Math.floor(s%31536000/86400);
+  const h = Math.floor(s%86400/3600);
+  const m = Math.floor(s%3600/60);
+  const sec = s%60;
+  return y+" 年 "+d+" 天 "+h+" 小时 "+m+" 分钟 "+sec+" 秒";
+}
+const upEl = document.getElementById("uptime");
+function tick(){ if(upEl) upEl.textContent = fmtUptime(); }
+tick(); setInterval(tick,1000);
 </script>
 </body>
 </html>
