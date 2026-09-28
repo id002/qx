@@ -54,6 +54,31 @@ QX 里添加远程资源时填完整 raw URL 即可，例如：
 https://raw.githubusercontent.com/id002/qx/master/rewrites/da-shi-xiong.conf
 ```
 
+## 收藏夹页面（规则一键添加）
+
+手机浏览器打开 **https://id002.github.io/qx/** （备用：doubao-html https://4m2rky2nqrx2q.doubaoapps.com/app/app_17eyfzdqu00 ），点卡片「添加到 QX」自动跳转 App 预填远程资源，或「复制」拿 raw 链接。
+
+### 点击计数（每规则）
+
+每张卡片显示「已点击 N 次」，取 **云端全局数** 与 **本机数** 的较大值。
+
+- **云端服务**：`countapi.mileshilliard.com`（开源免费计数 API，零注册零认证）
+  - 自增：`GET https://countapi.mileshilliard.com/api/v1/hit/{key}` → `{"value":N}`
+  - 只读：`GET https://countapi.mileshilliard.com/api/v1/get/{key}` → `{"value":N}`（key 不存在返回 404，页面静默忽略）
+  - key 规则：`id002-qx-` + 规则文件名（如 `id002-qx-qi-shui-music.conf`），URL 编码后拼接
+- **本地兜底**：localStorage 键 `qx_clicks`（`{file: 次数}`），云端不可用时页面照常计数
+- **页面代码位置**：`index.html` 中 `CNT_NS` / `cntUrl()` / `cloudFetch()` / `cloudBump()` / `clickOf()` / `bump()`
+
+### 已实测排除的后端（维护时别走回头路）
+
+| 方案 | 结论 |
+|------|------|
+| LeanCloud（国际/国内版） | 2026-01 起停新注册，2027-01 整体停服，不可用 |
+| CounterAPI（counterapi.com） | 只读接口失灵、同 IP 同 key 防刷限一次，不可靠 |
+| countapi.xyz | DNS 已失效（服务下线） |
+| Supabase | 国内被墙（连接被重置） |
+| 腾讯云 CloudBase / 国内云 | 需实名认证 + 免费体验版续期复杂，未采用 |
+
 ## 快速上手（3 步）
 
 1. **改订阅**：打开 `MyProfile.conf`，找到 `[server_remote]` 段，把占位的订阅链接换成你自己机场的订阅。
