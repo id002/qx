@@ -8,14 +8,14 @@
 |---|---|
 | 远程仓库 | `git@github.com:id002/qx.git`（public） |
 | raw 前缀 | `https://raw.githubusercontent.com/id002/qx/master/` |
-| 提交历史 | 4 个提交（init → 英文短路径+校验工具 → HTML 清理 → 重复清理） |
+| 提交历史 | 17 个提交（结构整理 → 收藏夹页面 → 点击计数 → 优酷/京东净化） |
 | 提交身份 | `id002 <95127491+id002@users.noreply.github.com>`（已匿名化） |
-| 当前 HEAD | `2c80330`（合并汽水音乐后待推送） |
-| 主要资产 | 重写 857 条 ／ 分流 210,134 条 ／ 脚本 10 个 ／ 配置 3 个 |
+| 当前 HEAD | `4cad0b4`（收藏夹点击计数 countapi 版，优酷/京东净化待推送） |
+| 主要资产 | 重写 864 条 ／ 分流 210,134 条 ／ 脚本 10 个 ／ 配置 3 个 |
 
-## 二、重写规则 rewrites/（27 个文件，共 857 条有效行）
+## 二、重写规则 rewrites/（29 个文件，共 864 条有效行）
 
-> 口径：有效规则行 = `^` 开头且非禁用注释（`#^` / `;`）的行。2026-09-27 更新。
+> 口径：有效规则行 = `^` 开头且非禁用注释（`#^` / `;`）的行。2026-10-13 更新。
 
 ### App 净化（按 App 单独同步）
 | 文件 | 条数 | 用途 |
@@ -31,6 +31,7 @@
 | keep.conf | 17 | Keep 去广告 |
 | qi-shui-music.conf | 16 | 汽水音乐净化（穿山甲SDK+luna接口整合） |
 | aisi.conf | 4 | 爱思助手去广告（主界面+开屏接口+广告图） |
+| youku.conf | 4 | 优酷视频去广告（前贴片广告流+互动素材包+iYes SDK） |
 | goofish.conf | 14 | 闲鱼净化（需卸载重装） |
 | smzdm.conf | 13 | 什么值得买净化 |
 | caiyun.conf | 12 | 彩云天气净化 |
@@ -43,6 +44,7 @@
 | applet.conf | 5 | 微信小程序去除广告 |
 | duolingo.conf | 5 | 多邻国去广告（学习后视频/插屏） |
 | da-shi-xiong.conf | 4 | 大师兄影视净化+影视公告去弹窗 |
+| jd.conf | 2 | 京东去广告（全屏营销图+babel促销banner） |
 | reddit.conf | 1 | Reddit 增强去广告 |
 | wechat-unblock.conf | 1 | 微信解锁被屏蔽 URL |
 | google-redirect.conf | 1 | Google 搜索重定向 |
