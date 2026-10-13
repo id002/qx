@@ -10,7 +10,7 @@
 | raw 前缀 | `https://raw.githubusercontent.com/id002/qx/master/` |
 | 提交历史 | 17 个提交（结构整理 → 收藏夹页面 → 点击计数 → 优酷/京东净化） |
 | 提交身份 | `id002 <95127491+id002@users.noreply.github.com>`（已匿名化） |
-| 当前 HEAD | `4cad0b4`（收藏夹点击计数 countapi 版，优酷/京东净化待推送） |
+| 当前 HEAD | `02c6f0d`（优酷/京东净化已推送） |
 | 主要资产 | 重写 864 条 ／ 分流 210,134 条 ／ 脚本 10 个 ／ 配置 3 个 |
 
 ## 二、重写规则 rewrites/（29 个文件，共 864 条有效行）
